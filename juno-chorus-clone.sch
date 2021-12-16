@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:juno-chorus-clone-cache
-EELAYER 27 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM7815CT U2
+L juno-chorus-clone-rescue:LM7815CT U2
 U 1 1 5354EA92
 P 2150 800
 F 0 "U2" H 1950 1000 40  0000 C CNN
@@ -56,7 +25,7 @@ F 3 "~" H 2150 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM7915CT U3
+L juno-chorus-clone-rescue:LM7915CT U3
 U 1 1 5354EAA1
 P 2150 2000
 F 0 "U3" H 1950 1800 40  0000 C CNN
@@ -67,7 +36,7 @@ F 3 "~" H 2150 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P1
+L juno-chorus-clone-rescue:CONN_2 P1
 U 1 1 5354EAC3
 P 800 1400
 F 0 "P1" V 750 1400 40  0000 C CNN
@@ -78,7 +47,7 @@ F 3 "" H 800 1400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CP1 C2
+L juno-chorus-clone-rescue:CP1 C2
 U 1 1 5354F958
 P 1650 1800
 F 0 "C2" H 1700 2000 50  0000 L CNN
@@ -89,7 +58,7 @@ F 3 "~" H 1650 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1
+L juno-chorus-clone-rescue:CP1 C1
 U 1 1 5354F965
 P 1650 1000
 F 0 "C1" H 1700 1100 50  0000 L CNN
@@ -100,7 +69,7 @@ F 3 "~" H 1650 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L juno-chorus-clone-rescue:GND #PWR01
 U 1 1 5354F977
 P 2400 1600
 F 0 "#PWR01" H 2400 1600 30  0001 C CNN
@@ -111,7 +80,7 @@ F 3 "" H 2400 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR02
+L juno-chorus-clone-rescue:VAA #PWR02
 U 1 1 5354F9C7
 P 2650 700
 F 0 "#PWR02" H 2650 760 30  0001 C CNN
@@ -122,7 +91,7 @@ F 3 "" H 2650 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -VAA #PWR03
+L juno-chorus-clone-rescue:-VAA #PWR03
 U 1 1 5354F9D6
 P 2650 2100
 F 0 "#PWR03" H 2650 2200 20  0001 C CNN
@@ -133,7 +102,7 @@ F 3 "" H 2650 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP1 C3
+L juno-chorus-clone-rescue:CP1 C3
 U 1 1 5354F9F2
 P 2650 1000
 F 0 "C3" H 2700 1100 50  0000 L CNN
@@ -144,7 +113,7 @@ F 3 "~" H 2650 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C4
+L juno-chorus-clone-rescue:CP1 C4
 U 1 1 5354F9F8
 P 2650 1800
 F 0 "C4" H 2700 1900 50  0000 L CNN
@@ -155,7 +124,7 @@ F 3 "~" H 2650 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODESCH D1
+L juno-chorus-clone-rescue:DIODESCH D1
 U 1 1 5354FA00
 P 1350 1000
 F 0 "D1" H 1350 1100 40  0000 C CNN
@@ -166,7 +135,7 @@ F 3 "~" H 1350 1000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODESCH D2
+L juno-chorus-clone-rescue:DIODESCH D2
 U 1 1 5354FA2B
 P 1350 1800
 F 0 "D2" H 1350 1900 40  0000 C CNN
@@ -177,7 +146,7 @@ F 3 "~" H 1350 1800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TL082 U1
+L juno-chorus-clone-rescue:TL082 U1
 U 1 1 5354FCA2
 P 1250 9950
 F 0 "U1" H 1200 10150 60  0000 L CNN
@@ -188,7 +157,7 @@ F 3 "" H 1250 9950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL082 U1
+L juno-chorus-clone-rescue:TL082 U1
 U 2 1 5354FCB4
 P 3050 9950
 F 0 "U1" H 3000 10150 60  0000 L CNN
@@ -199,7 +168,7 @@ F 3 "" H 3050 9950 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L TL082 U4
+L juno-chorus-clone-rescue:TL082 U4
 U 1 1 5354FCBA
 P 4650 9450
 F 0 "U4" H 4600 9650 60  0000 L CNN
@@ -210,7 +179,7 @@ F 3 "" H 4650 9450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL082 U4
+L juno-chorus-clone-rescue:TL082 U4
 U 2 1 5354FCC0
 P 4750 10700
 F 0 "U4" H 4700 10900 60  0000 L CNN
@@ -221,7 +190,7 @@ F 3 "" H 4750 10700 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L POT RV1
+L juno-chorus-clone-rescue:POT RV1
 U 1 1 5354FCD7
 P 1800 10250
 F 0 "RV1" H 1800 10150 50  0000 C CNN
@@ -232,7 +201,7 @@ F 3 "~" H 1800 10250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV2
+L juno-chorus-clone-rescue:POT RV2
 U 1 1 5354FCE4
 P 3600 10250
 F 0 "RV2" H 3600 10150 50  0000 C CNN
@@ -243,7 +212,7 @@ F 3 "~" H 3600 10250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L juno-chorus-clone-rescue:R R2
 U 1 1 5354FCEC
 P 1800 10800
 F 0 "R2" V 1880 10800 40  0000 C CNN
@@ -254,7 +223,7 @@ F 3 "~" H 1800 10800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L juno-chorus-clone-rescue:R R4
 U 1 1 5354FCF9
 P 2200 9850
 F 0 "R4" V 2280 9850 40  0000 C CNN
@@ -265,7 +234,7 @@ F 3 "~" H 2200 9850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L juno-chorus-clone-rescue:R R3
 U 1 1 5354FCFF
 P 2050 9100
 F 0 "R3" V 2130 9100 40  0000 C CNN
@@ -276,7 +245,7 @@ F 3 "~" H 2050 9100 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L juno-chorus-clone-rescue:R R1
 U 1 1 5354FD05
 P 1150 9300
 F 0 "R1" V 1230 9300 40  0000 C CNN
@@ -287,7 +256,7 @@ F 3 "~" H 1150 9300 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C5
+L juno-chorus-clone-rescue:C C5
 U 1 1 5354FD27
 P 2950 9300
 F 0 "C5" H 2950 9400 40  0000 L CNN
@@ -298,7 +267,7 @@ F 3 "~" H 2950 9300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR04
+L juno-chorus-clone-rescue:GND #PWR04
 U 1 1 5354FD48
 P 1800 11150
 F 0 "#PWR04" H 1800 11150 30  0001 C CNN
@@ -309,7 +278,7 @@ F 3 "" H 1800 11150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR05
+L juno-chorus-clone-rescue:VAA #PWR05
 U 1 1 5355017E
 P 1150 9550
 F 0 "#PWR05" H 1150 9610 30  0001 C CNN
@@ -320,7 +289,7 @@ F 3 "" H 1150 9550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VAA #PWR06
+L juno-chorus-clone-rescue:VAA #PWR06
 U 1 1 53550184
 P 2950 10350
 F 0 "#PWR06" H 2950 10410 30  0001 C CNN
@@ -331,7 +300,7 @@ F 3 "" H 2950 10350 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L VAA #PWR07
+L juno-chorus-clone-rescue:VAA #PWR07
 U 1 1 5355019E
 P 4550 9050
 F 0 "#PWR07" H 4550 9110 30  0001 C CNN
@@ -342,7 +311,7 @@ F 3 "" H 4550 9050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VAA #PWR08
+L juno-chorus-clone-rescue:VAA #PWR08
 U 1 1 535501A4
 P 4650 11100
 F 0 "#PWR08" H 4650 11160 30  0001 C CNN
@@ -353,7 +322,7 @@ F 3 "" H 4650 11100 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L -VAA #PWR09
+L juno-chorus-clone-rescue:-VAA #PWR09
 U 1 1 535501AA
 P 1150 10350
 F 0 "#PWR09" H 1150 10450 20  0001 C CNN
@@ -364,7 +333,7 @@ F 3 "" H 1150 10350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L -VAA #PWR010
+L juno-chorus-clone-rescue:-VAA #PWR010
 U 1 1 535501B0
 P 2950 9550
 F 0 "#PWR010" H 2950 9650 20  0001 C CNN
@@ -375,7 +344,7 @@ F 3 "" H 2950 9550 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L -VAA #PWR011
+L juno-chorus-clone-rescue:-VAA #PWR011
 U 1 1 535501B6
 P 4550 9850
 F 0 "#PWR011" H 4550 9950 20  0001 C CNN
@@ -386,7 +355,7 @@ F 3 "" H 4550 9850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L -VAA #PWR012
+L juno-chorus-clone-rescue:-VAA #PWR012
 U 1 1 535501C2
 P 4650 10300
 F 0 "#PWR012" H 4650 10400 20  0001 C CNN
@@ -397,7 +366,7 @@ F 3 "" H 4650 10300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R19
+L juno-chorus-clone-rescue:R R19
 U 1 1 535501D3
 P 4050 10300
 F 0 "R19" V 3950 10300 40  0000 C CNN
@@ -408,7 +377,7 @@ F 3 "~" H 4050 10300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L juno-chorus-clone-rescue:R R24
 U 1 1 535501D9
 P 4700 10100
 F 0 "R24" V 4600 10100 40  0000 C CNN
@@ -419,7 +388,7 @@ F 3 "~" H 4700 10100 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_2 P2
+L juno-chorus-clone-rescue:CONN_2 P2
 U 1 1 53551577
 P 8100 1400
 F 0 "P2" V 8050 1400 40  0000 C CNN
@@ -430,7 +399,7 @@ F 3 "" H 8100 1400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L POT RV5
+L juno-chorus-clone-rescue:POT RV5
 U 1 1 53551584
 P 10450 1750
 F 0 "RV5" H 10450 1650 50  0000 C CNN
@@ -441,7 +410,7 @@ F 3 "~" H 10450 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TL082 U9
+L juno-chorus-clone-rescue:TL082 U9
 U 1 1 53551593
 P 9850 1400
 F 0 "U9" H 9800 1600 60  0000 L CNN
@@ -452,7 +421,7 @@ F 3 "" H 9850 1400 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L TL082 U9
+L juno-chorus-clone-rescue:TL082 U9
 U 2 1 535515A0
 P 11750 1400
 F 0 "U9" H 11700 1600 60  0000 L CNN
@@ -463,7 +432,7 @@ F 3 "" H 11750 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R54
+L juno-chorus-clone-rescue:R R54
 U 1 1 535515AD
 P 9050 1850
 F 0 "R54" V 9130 1850 40  0000 C CNN
@@ -474,7 +443,7 @@ F 3 "~" H 9050 1850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C19
+L juno-chorus-clone-rescue:CP1 C19
 U 1 1 535515BC
 P 8750 1300
 F 0 "C19" H 8800 1400 50  0000 L CNN
@@ -485,7 +454,7 @@ F 3 "~" H 8750 1300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR013
+L juno-chorus-clone-rescue:GND #PWR013
 U 1 1 535515F1
 P 9050 2200
 F 0 "#PWR013" H 9050 2200 30  0001 C CNN
@@ -496,7 +465,7 @@ F 3 "" H 9050 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R67
+L juno-chorus-clone-rescue:R R67
 U 1 1 53551633
 P 10900 2150
 F 0 "R67" V 10980 2150 40  0000 C CNN
@@ -507,7 +476,7 @@ F 3 "~" H 10900 2150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R70
+L juno-chorus-clone-rescue:R R70
 U 1 1 53551643
 P 11650 2150
 F 0 "R70" V 11730 2150 40  0000 C CNN
@@ -518,7 +487,7 @@ F 3 "~" H 11650 2150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VAA #PWR014
+L juno-chorus-clone-rescue:VAA #PWR014
 U 1 1 53551D7C
 P 9750 1800
 F 0 "#PWR014" H 9750 1860 30  0001 C CNN
@@ -529,7 +498,7 @@ F 3 "" H 9750 1800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VAA #PWR015
+L juno-chorus-clone-rescue:VAA #PWR015
 U 1 1 53551D82
 P 11650 1000
 F 0 "#PWR015" H 11650 1060 30  0001 C CNN
@@ -540,7 +509,7 @@ F 3 "" H 11650 1000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L -VAA #PWR016
+L juno-chorus-clone-rescue:-VAA #PWR016
 U 1 1 53551D88
 P 9750 1000
 F 0 "#PWR016" H 9750 1100 20  0001 C CNN
@@ -551,7 +520,7 @@ F 3 "" H 9750 1000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L -VAA #PWR017
+L juno-chorus-clone-rescue:-VAA #PWR017
 U 1 1 53551D8E
 P 11650 1800
 F 0 "#PWR017" H 11650 1900 20  0001 C CNN
@@ -562,7 +531,7 @@ F 3 "" H 11650 1800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R75
+L juno-chorus-clone-rescue:R R75
 U 1 1 53551E17
 P 12600 1400
 F 0 "R75" V 12680 1400 40  0000 C CNN
@@ -573,7 +542,7 @@ F 3 "~" H 12600 1400 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R76
+L juno-chorus-clone-rescue:R R76
 U 1 1 53551E27
 P 13200 1400
 F 0 "R76" V 13280 1400 40  0000 C CNN
@@ -584,7 +553,7 @@ F 3 "~" H 13200 1400 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R82
+L juno-chorus-clone-rescue:R R82
 U 1 1 53551E41
 P 14150 1650
 F 0 "R82" V 14230 1650 40  0000 C CNN
@@ -595,7 +564,7 @@ F 3 "~" H 14150 1650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R85
+L juno-chorus-clone-rescue:R R85
 U 1 1 53551E47
 P 14750 1650
 F 0 "R85" V 14830 1650 40  0000 C CNN
@@ -606,7 +575,7 @@ F 3 "~" H 14750 1650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C33
+L juno-chorus-clone-rescue:C C33
 U 1 1 53551E5F
 P 13500 1950
 F 0 "C33" H 13500 2050 40  0000 L CNN
@@ -617,7 +586,7 @@ F 3 "~" H 13500 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L juno-chorus-clone-rescue:C C35
 U 1 1 53551E6C
 P 15050 2200
 F 0 "C35" H 15050 2300 40  0000 L CNN
@@ -628,7 +597,7 @@ F 3 "~" H 15050 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L juno-chorus-clone-rescue:C C32
 U 1 1 53551E72
 P 13100 1650
 F 0 "C32" H 13100 1750 40  0000 L CNN
@@ -639,7 +608,7 @@ F 3 "~" H 13100 1650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C34
+L juno-chorus-clone-rescue:C C34
 U 1 1 53551E8C
 P 14650 1900
 F 0 "C34" H 14650 2000 40  0000 L CNN
@@ -650,7 +619,7 @@ F 3 "~" H 14650 1900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L -VAA #PWR018
+L juno-chorus-clone-rescue:-VAA #PWR018
 U 1 1 53551EB0
 P 15550 1200
 F 0 "#PWR018" H 15550 1300 20  0001 C CNN
@@ -661,7 +630,7 @@ F 3 "" H 15550 1200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR019
+L juno-chorus-clone-rescue:VAA #PWR019
 U 1 1 53551EC0
 P 15550 2500
 F 0 "#PWR019" H 15550 2560 30  0001 C CNN
@@ -672,7 +641,7 @@ F 3 "" H 15550 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R88
+L juno-chorus-clone-rescue:R R88
 U 1 1 53552088
 P 15400 2250
 F 0 "R88" V 15480 2250 40  0000 C CNN
@@ -683,7 +652,7 @@ F 3 "~" H 15400 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R81
+L juno-chorus-clone-rescue:R R81
 U 1 1 53552093
 P 13850 2000
 F 0 "R81" V 13930 2000 40  0000 C CNN
@@ -694,7 +663,7 @@ F 3 "~" H 13850 2000 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR020
+L juno-chorus-clone-rescue:GND #PWR020
 U 1 1 53552666
 P 13500 2500
 F 0 "#PWR020" H 13500 2500 30  0001 C CNN
@@ -705,7 +674,7 @@ F 3 "" H 13500 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL082 U10
+L juno-chorus-clone-rescue:TL082 U10
 U 1 1 53552AED
 P 14350 3700
 F 0 "U10" H 14300 3900 60  0000 L CNN
@@ -716,7 +685,7 @@ F 3 "" H 14350 3700 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_2 P3
+L juno-chorus-clone-rescue:CONN_2 P3
 U 1 1 53552AFD
 P 15850 3800
 F 0 "P3" V 15800 3800 40  0000 C CNN
@@ -727,7 +696,7 @@ F 3 "" H 15850 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R86
+L juno-chorus-clone-rescue:R R86
 U 1 1 53552D14
 P 15200 3700
 F 0 "R86" V 15280 3700 40  0000 C CNN
@@ -738,7 +707,7 @@ F 3 "~" H 15200 3700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR021
+L juno-chorus-clone-rescue:GND #PWR021
 U 1 1 53552D30
 P 13750 3900
 F 0 "#PWR021" H 13750 3900 30  0001 C CNN
@@ -749,7 +718,7 @@ F 3 "" H 13750 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R78
+L juno-chorus-clone-rescue:R R78
 U 1 1 53552D36
 P 13400 3600
 F 0 "R78" V 13480 3600 40  0000 C CNN
@@ -760,7 +729,7 @@ F 3 "~" H 13400 3600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R77
+L juno-chorus-clone-rescue:R R77
 U 1 1 53552D3C
 P 13400 3100
 F 0 "R77" V 13480 3100 40  0000 C CNN
@@ -771,7 +740,7 @@ F 3 "~" H 13400 3100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L -VAA #PWR022
+L juno-chorus-clone-rescue:-VAA #PWR022
 U 1 1 53552D4C
 P 14250 3300
 F 0 "#PWR022" H 14250 3400 20  0001 C CNN
@@ -782,7 +751,7 @@ F 3 "" H 14250 3300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VAA #PWR023
+L juno-chorus-clone-rescue:VAA #PWR023
 U 1 1 53552D52
 P 14250 4100
 F 0 "#PWR023" H 14250 4160 30  0001 C CNN
@@ -793,7 +762,7 @@ F 3 "" H 14250 4100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R83
+L juno-chorus-clone-rescue:R R83
 U 1 1 53552D58
 P 14300 3100
 F 0 "R83" V 14380 3100 40  0000 C CNN
@@ -804,7 +773,7 @@ F 3 "~" H 14300 3100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR024
+L juno-chorus-clone-rescue:GND #PWR024
 U 1 1 53552E88
 P 15400 4000
 F 0 "#PWR024" H 15400 4000 30  0001 C CNN
@@ -815,7 +784,7 @@ F 3 "" H 15400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL8 U5
+L juno-chorus-clone-rescue:DIL8 U5
 U 1 1 53553456
 P 7350 3150
 F 0 "U5" H 7350 3400 60  0000 C CNN
@@ -826,7 +795,7 @@ F 3 "" H 7350 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL8 U6
+L juno-chorus-clone-rescue:DIL8 U6
 U 1 1 5355346D
 P 7350 4600
 F 0 "U6" H 7350 4850 60  0000 C CNN
@@ -837,7 +806,7 @@ F 3 "" H 7350 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R43
+L juno-chorus-clone-rescue:R R43
 U 1 1 53553484
 P 8050 2900
 F 0 "R43" V 8130 2900 40  0000 C CNN
@@ -848,7 +817,7 @@ F 3 "~" H 8050 2900 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R44
+L juno-chorus-clone-rescue:R R44
 U 1 1 5355349B
 P 8050 3100
 F 0 "R44" V 8130 3100 40  0000 C CNN
@@ -859,7 +828,7 @@ F 3 "~" H 8050 3100 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R48
+L juno-chorus-clone-rescue:R R48
 U 1 1 535534C5
 P 8400 3400
 F 0 "R48" V 8480 3400 40  0000 C CNN
@@ -870,7 +839,7 @@ F 3 "~" H 8400 3400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R51
+L juno-chorus-clone-rescue:R R51
 U 1 1 535534D7
 P 8900 3100
 F 0 "R51" V 8980 3100 40  0000 C CNN
@@ -881,7 +850,7 @@ F 3 "~" H 8900 3100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R58
+L juno-chorus-clone-rescue:R R58
 U 1 1 535534DD
 P 9500 3100
 F 0 "R58" V 9580 3100 40  0000 C CNN
@@ -892,7 +861,7 @@ F 3 "~" H 9500 3100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R64
+L juno-chorus-clone-rescue:R R64
 U 1 1 535534E3
 P 10450 3350
 F 0 "R64" V 10530 3350 40  0000 C CNN
@@ -903,7 +872,7 @@ F 3 "~" H 10450 3350 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R68
+L juno-chorus-clone-rescue:R R68
 U 1 1 535534E9
 P 11050 3350
 F 0 "R68" V 11130 3350 40  0000 C CNN
@@ -914,7 +883,7 @@ F 3 "~" H 11050 3350 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C24
+L juno-chorus-clone-rescue:C C24
 U 1 1 535534EF
 P 9800 3650
 F 0 "C24" H 9800 3750 40  0000 L CNN
@@ -925,7 +894,7 @@ F 3 "~" H 9800 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C28
+L juno-chorus-clone-rescue:C C28
 U 1 1 535534F5
 P 11350 3900
 F 0 "C28" H 11350 4000 40  0000 L CNN
@@ -936,7 +905,7 @@ F 3 "~" H 11350 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L juno-chorus-clone-rescue:C C20
 U 1 1 535534FB
 P 9400 3350
 F 0 "C20" H 9400 3450 40  0000 L CNN
@@ -947,7 +916,7 @@ F 3 "~" H 9400 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C26
+L juno-chorus-clone-rescue:C C26
 U 1 1 53553501
 P 10950 3600
 F 0 "C26" H 10950 3700 40  0000 L CNN
@@ -958,7 +927,7 @@ F 3 "~" H 10950 3600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L -VAA #PWR025
+L juno-chorus-clone-rescue:-VAA #PWR025
 U 1 1 53553507
 P 11850 2900
 F 0 "#PWR025" H 11850 3000 20  0001 C CNN
@@ -969,7 +938,7 @@ F 3 "" H 11850 2900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R71
+L juno-chorus-clone-rescue:R R71
 U 1 1 53553519
 P 11700 3950
 F 0 "R71" V 11780 3950 40  0000 C CNN
@@ -980,7 +949,7 @@ F 3 "~" H 11700 3950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R61
+L juno-chorus-clone-rescue:R R61
 U 1 1 5355351F
 P 10150 3700
 F 0 "R61" V 10230 3700 40  0000 C CNN
@@ -991,7 +960,7 @@ F 3 "~" H 10150 3700 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR026
+L juno-chorus-clone-rescue:GND #PWR026
 U 1 1 53553538
 P 9800 4050
 F 0 "#PWR026" H 9800 4050 30  0001 C CNN
@@ -1002,7 +971,7 @@ F 3 "" H 9800 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C30
+L juno-chorus-clone-rescue:CP1 C30
 U 1 1 53553CD6
 P 11950 3600
 F 0 "C30" H 12000 3700 50  0000 L CNN
@@ -1013,7 +982,7 @@ F 3 "~" H 11950 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R73
+L juno-chorus-clone-rescue:R R73
 U 1 1 53553CE3
 P 12200 3950
 F 0 "R73" V 12280 3950 40  0000 C CNN
@@ -1024,7 +993,7 @@ F 3 "~" H 12200 3950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FET_N Q16
+L juno-chorus-clone-rescue:FET_N Q16
 U 1 1 53553CEB
 P 12600 3750
 F 0 "Q16" H 12503 4000 70  0000 C CNN
@@ -1035,7 +1004,7 @@ F 3 "~" H 12600 3750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D6
+L juno-chorus-clone-rescue:DIODE D6
 U 1 1 53553CFA
 P 12600 4300
 F 0 "D6" H 12600 4400 40  0000 C CNN
@@ -1046,7 +1015,7 @@ F 3 "~" H 12600 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C16
+L juno-chorus-clone-rescue:C C16
 U 1 1 53554307
 P 8600 3350
 F 0 "C16" H 8600 3450 40  0000 L CNN
@@ -1057,7 +1026,7 @@ F 3 "~" H 8600 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L juno-chorus-clone-rescue:R R35
 U 1 1 5355433F
 P 6250 3200
 F 0 "R35" V 6330 3200 40  0000 C CNN
@@ -1068,7 +1037,7 @@ F 3 "~" H 6250 3200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C10
+L juno-chorus-clone-rescue:C C10
 U 1 1 53554345
 P 6750 3550
 F 0 "C10" H 6750 3650 40  0000 L CNN
@@ -1079,7 +1048,7 @@ F 3 "~" H 6750 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L juno-chorus-clone-rescue:C C8
 U 1 1 5355434B
 P 5700 3200
 F 0 "C8" H 5700 3300 40  0000 L CNN
@@ -1090,7 +1059,7 @@ F 3 "~" H 5700 3200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R33
+L juno-chorus-clone-rescue:R R33
 U 1 1 53554351
 P 5950 3500
 F 0 "R33" V 6030 3500 40  0000 C CNN
@@ -1101,7 +1070,7 @@ F 3 "~" H 5950 3500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV3
+L juno-chorus-clone-rescue:POT RV3
 U 1 1 5355441A
 P 5950 4050
 F 0 "RV3" H 5950 3950 50  0000 C CNN
@@ -1112,7 +1081,7 @@ F 3 "~" H 5950 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R31
+L juno-chorus-clone-rescue:R R31
 U 1 1 53554420
 P 5650 4350
 F 0 "R31" V 5730 4350 40  0000 C CNN
@@ -1123,7 +1092,7 @@ F 3 "~" H 5650 4350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L juno-chorus-clone-rescue:R R37
 U 1 1 5355442C
 P 6500 4050
 F 0 "R37" V 6580 4050 40  0000 C CNN
@@ -1134,7 +1103,7 @@ F 3 "~" H 6500 4050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR027
+L juno-chorus-clone-rescue:GND #PWR027
 U 1 1 5355443C
 P 6750 3800
 F 0 "#PWR027" H 6750 3800 30  0001 C CNN
@@ -1145,7 +1114,7 @@ F 3 "" H 6750 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L juno-chorus-clone-rescue:GND #PWR028
 U 1 1 53554442
 P 5650 4650
 F 0 "#PWR028" H 5650 4650 30  0001 C CNN
@@ -1156,7 +1125,7 @@ F 3 "" H 5650 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L juno-chorus-clone-rescue:GND #PWR029
 U 1 1 53554CFF
 P 6750 4500
 F 0 "#PWR029" H 6750 4500 30  0001 C CNN
@@ -1167,7 +1136,7 @@ F 3 "" H 6750 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L juno-chorus-clone-rescue:GND #PWR030
 U 1 1 5355576D
 P 11350 4300
 F 0 "#PWR030" H 11350 4300 30  0001 C CNN
@@ -1178,7 +1147,7 @@ F 3 "" H 11350 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L juno-chorus-clone-rescue:GND #PWR031
 U 1 1 53555889
 P 8400 3750
 F 0 "#PWR031" H 8400 3750 30  0001 C CNN
@@ -1189,7 +1158,7 @@ F 3 "" H 8400 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L juno-chorus-clone-rescue:GND #PWR032
 U 1 1 5355611C
 P 6750 3050
 F 0 "#PWR032" H 6750 3050 30  0001 C CNN
@@ -1200,7 +1169,7 @@ F 3 "" H 6750 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C14
+L juno-chorus-clone-rescue:CP1 C14
 U 1 1 535564D4
 P 7350 3650
 F 0 "C14" H 7400 3750 50  0000 L CNN
@@ -1211,7 +1180,7 @@ F 3 "~" H 7350 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR033
+L juno-chorus-clone-rescue:GND #PWR033
 U 1 1 53556734
 P 6850 5300
 F 0 "#PWR033" H 6850 5300 30  0001 C CNN
@@ -1222,7 +1191,7 @@ F 3 "" H 6850 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L juno-chorus-clone-rescue:R R39
 U 1 1 5355682D
 P 6650 4950
 F 0 "R39" V 6730 4950 40  0000 C CNN
@@ -1233,7 +1202,7 @@ F 3 "~" H 6650 4950 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L -VAA #PWR034
+L juno-chorus-clone-rescue:-VAA #PWR034
 U 1 1 53556926
 P 6650 5250
 F 0 "#PWR034" H 6650 5350 20  0001 C CNN
@@ -1244,7 +1213,7 @@ F 3 "" H 6650 5250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R41
+L juno-chorus-clone-rescue:R R41
 U 1 1 53556A64
 P 7350 4200
 F 0 "R41" V 7430 4200 40  0000 C CNN
@@ -1255,7 +1224,7 @@ F 3 "~" H 7350 4200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R16
+L juno-chorus-clone-rescue:R R16
 U 1 1 53556CCB
 P 3500 3400
 F 0 "R16" V 3580 3400 40  0000 C CNN
@@ -1266,7 +1235,7 @@ F 3 "~" H 3500 3400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R15
+L juno-chorus-clone-rescue:R R15
 U 1 1 53556CDB
 P 3500 3200
 F 0 "R15" V 3580 3200 40  0000 C CNN
@@ -1277,7 +1246,7 @@ F 3 "~" H 3500 3200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
+L juno-chorus-clone-rescue:R R22
 U 1 1 53556CE1
 P 4450 3200
 F 0 "R22" V 4530 3200 40  0000 C CNN
@@ -1288,7 +1257,7 @@ F 3 "~" H 4450 3200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR035
+L juno-chorus-clone-rescue:GND #PWR035
 U 1 1 53556CE7
 P 4750 3250
 F 0 "#PWR035" H 4750 3250 30  0001 C CNN
@@ -1299,7 +1268,7 @@ F 3 "" H 4750 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L juno-chorus-clone-rescue:R R7
 U 1 1 53556CED
 P 2700 3350
 F 0 "R7" V 2780 3350 40  0000 C CNN
@@ -1310,7 +1279,7 @@ F 3 "~" H 2700 3350 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR036
+L juno-chorus-clone-rescue:VAA #PWR036
 U 1 1 53556CF3
 P 2700 3000
 F 0 "#PWR036" H 2700 3060 30  0001 C CNN
@@ -1321,7 +1290,7 @@ F 3 "" H 2700 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L juno-chorus-clone-rescue:R R25
 U 1 1 53556CF9
 P 4850 4000
 F 0 "R25" V 4930 4000 40  0000 C CNN
@@ -1332,7 +1301,7 @@ F 3 "~" H 4850 4000 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D3
+L juno-chorus-clone-rescue:DIODE D3
 U 1 1 53557CA9
 P 3450 4250
 F 0 "D3" H 3450 4100 40  0000 C CNN
@@ -1343,7 +1312,7 @@ F 3 "~" H 3450 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R20
+L juno-chorus-clone-rescue:R R20
 U 1 1 53557CC0
 P 4100 4250
 F 0 "R20" V 4180 4250 40  0000 C CNN
@@ -1354,7 +1323,7 @@ F 3 "~" H 4100 4250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L juno-chorus-clone-rescue:C C6
 U 1 1 53557CC6
 P 4400 4800
 F 0 "C6" H 4400 4900 40  0000 L CNN
@@ -1365,7 +1334,7 @@ F 3 "~" H 4400 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L juno-chorus-clone-rescue:R R27
 U 1 1 53557CD6
 P 5000 4800
 F 0 "R27" V 5080 4800 40  0000 C CNN
@@ -1376,7 +1345,7 @@ F 3 "~" H 5000 4800 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R29
+L juno-chorus-clone-rescue:R R29
 U 1 1 53557CDC
 P 5300 4800
 F 0 "R29" V 5380 4800 40  0000 C CNN
@@ -1387,7 +1356,7 @@ F 3 "~" H 5300 4800 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L juno-chorus-clone-rescue:R R9
 U 1 1 53557CEC
 P 3050 4550
 F 0 "R9" V 3130 4550 40  0000 C CNN
@@ -1398,7 +1367,7 @@ F 3 "~" H 3050 4550 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L juno-chorus-clone-rescue:R R5
 U 1 1 53557CF2
 P 2400 4850
 F 0 "R5" V 2480 4850 40  0000 C CNN
@@ -1409,7 +1378,7 @@ F 3 "~" H 2400 4850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R13
+L juno-chorus-clone-rescue:R R13
 U 1 1 53558470
 P 3450 4800
 F 0 "R13" V 3530 4800 40  0000 C CNN
@@ -1420,7 +1389,7 @@ F 3 "~" H 3450 4800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L juno-chorus-clone-rescue:R R11
 U 1 1 53558494
 P 3250 4800
 F 0 "R11" V 3330 4800 40  0000 C CNN
@@ -1431,7 +1400,7 @@ F 3 "~" H 3250 4800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C12
+L juno-chorus-clone-rescue:CP1 C12
 U 1 1 5355CDD1
 P 6850 4950
 F 0 "C12" H 6600 5100 50  0000 L CNN
@@ -1442,7 +1411,7 @@ F 3 "~" H 6850 4950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR037
+L juno-chorus-clone-rescue:GND #PWR037
 U 1 1 5355D8C6
 P 7350 3900
 F 0 "#PWR037" H 7350 3900 30  0001 C CNN
@@ -1453,7 +1422,7 @@ F 3 "" H 7350 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL082 U10
+L juno-chorus-clone-rescue:TL082 U10
 U 2 1 5355E840
 P 14350 6850
 F 0 "U10" H 14300 7050 60  0000 L CNN
@@ -1464,7 +1433,7 @@ F 3 "" H 14350 6850 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_2 P4
+L juno-chorus-clone-rescue:CONN_2 P4
 U 1 1 5355E846
 P 15850 6950
 F 0 "P4" V 15800 6950 40  0000 C CNN
@@ -1475,7 +1444,7 @@ F 3 "" H 15850 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R87
+L juno-chorus-clone-rescue:R R87
 U 1 1 5355E84C
 P 15200 6850
 F 0 "R87" V 15280 6850 40  0000 C CNN
@@ -1486,7 +1455,7 @@ F 3 "~" H 15200 6850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR038
+L juno-chorus-clone-rescue:GND #PWR038
 U 1 1 5355E852
 P 13750 7050
 F 0 "#PWR038" H 13750 7050 30  0001 C CNN
@@ -1497,7 +1466,7 @@ F 3 "" H 13750 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R80
+L juno-chorus-clone-rescue:R R80
 U 1 1 5355E858
 P 13400 6750
 F 0 "R80" V 13480 6750 40  0000 C CNN
@@ -1508,7 +1477,7 @@ F 3 "~" H 13400 6750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R79
+L juno-chorus-clone-rescue:R R79
 U 1 1 5355E85E
 P 13400 6250
 F 0 "R79" V 13480 6250 40  0000 C CNN
@@ -1519,7 +1488,7 @@ F 3 "~" H 13400 6250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L -VAA #PWR039
+L juno-chorus-clone-rescue:-VAA #PWR039
 U 1 1 5355E864
 P 14250 6450
 F 0 "#PWR039" H 14250 6550 20  0001 C CNN
@@ -1530,7 +1499,7 @@ F 3 "" H 14250 6450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VAA #PWR040
+L juno-chorus-clone-rescue:VAA #PWR040
 U 1 1 5355E86A
 P 14250 7250
 F 0 "#PWR040" H 14250 7310 30  0001 C CNN
@@ -1541,7 +1510,7 @@ F 3 "" H 14250 7250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R84
+L juno-chorus-clone-rescue:R R84
 U 1 1 5355E870
 P 14300 6250
 F 0 "R84" V 14380 6250 40  0000 C CNN
@@ -1552,7 +1521,7 @@ F 3 "~" H 14300 6250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
+L juno-chorus-clone-rescue:GND #PWR041
 U 1 1 5355E876
 P 15400 7150
 F 0 "#PWR041" H 15400 7150 30  0001 C CNN
@@ -1563,7 +1532,7 @@ F 3 "" H 15400 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL8 U7
+L juno-chorus-clone-rescue:DIL8 U7
 U 1 1 5355E87C
 P 7350 6300
 F 0 "U7" H 7350 6550 60  0000 C CNN
@@ -1574,7 +1543,7 @@ F 3 "" H 7350 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL8 U8
+L juno-chorus-clone-rescue:DIL8 U8
 U 1 1 5355E882
 P 7350 7750
 F 0 "U8" H 7350 8000 60  0000 C CNN
@@ -1585,7 +1554,7 @@ F 3 "" H 7350 7750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L juno-chorus-clone-rescue:R R45
 U 1 1 5355E888
 P 8050 6050
 F 0 "R45" V 8130 6050 40  0000 C CNN
@@ -1596,7 +1565,7 @@ F 3 "~" H 8050 6050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R46
+L juno-chorus-clone-rescue:R R46
 U 1 1 5355E88E
 P 8050 6250
 F 0 "R46" V 8130 6250 40  0000 C CNN
@@ -1607,7 +1576,7 @@ F 3 "~" H 8050 6250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R50
+L juno-chorus-clone-rescue:R R50
 U 1 1 5355E894
 P 8400 6550
 F 0 "R50" V 8480 6550 40  0000 C CNN
@@ -1618,7 +1587,7 @@ F 3 "~" H 8400 6550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R53
+L juno-chorus-clone-rescue:R R53
 U 1 1 5355E8A6
 P 8900 6250
 F 0 "R53" V 8980 6250 40  0000 C CNN
@@ -1629,7 +1598,7 @@ F 3 "~" H 8900 6250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R59
+L juno-chorus-clone-rescue:R R59
 U 1 1 5355E8AC
 P 9500 6250
 F 0 "R59" V 9580 6250 40  0000 C CNN
@@ -1640,7 +1609,7 @@ F 3 "~" H 9500 6250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R65
+L juno-chorus-clone-rescue:R R65
 U 1 1 5355E8B2
 P 10450 6500
 F 0 "R65" V 10530 6500 40  0000 C CNN
@@ -1651,7 +1620,7 @@ F 3 "~" H 10450 6500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R69
+L juno-chorus-clone-rescue:R R69
 U 1 1 5355E8B8
 P 11050 6500
 F 0 "R69" V 11130 6500 40  0000 C CNN
@@ -1662,7 +1631,7 @@ F 3 "~" H 11050 6500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C25
+L juno-chorus-clone-rescue:C C25
 U 1 1 5355E8BE
 P 9800 6800
 F 0 "C25" H 9800 6900 40  0000 L CNN
@@ -1673,7 +1642,7 @@ F 3 "~" H 9800 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L juno-chorus-clone-rescue:C C29
 U 1 1 5355E8C4
 P 11350 7050
 F 0 "C29" H 11350 7150 40  0000 L CNN
@@ -1684,7 +1653,7 @@ F 3 "~" H 11350 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L juno-chorus-clone-rescue:C C21
 U 1 1 5355E8CA
 P 9400 6500
 F 0 "C21" H 9400 6600 40  0000 L CNN
@@ -1695,7 +1664,7 @@ F 3 "~" H 9400 6500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C27
+L juno-chorus-clone-rescue:C C27
 U 1 1 5355E8D0
 P 10950 6750
 F 0 "C27" H 10950 6850 40  0000 L CNN
@@ -1706,7 +1675,7 @@ F 3 "~" H 10950 6750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L -VAA #PWR042
+L juno-chorus-clone-rescue:-VAA #PWR042
 U 1 1 5355E8D6
 P 11850 6050
 F 0 "#PWR042" H 11850 6150 20  0001 C CNN
@@ -1717,7 +1686,7 @@ F 3 "" H 11850 6050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R72
+L juno-chorus-clone-rescue:R R72
 U 1 1 5355E8DC
 P 11700 7100
 F 0 "R72" V 11780 7100 40  0000 C CNN
@@ -1728,7 +1697,7 @@ F 3 "~" H 11700 7100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R62
+L juno-chorus-clone-rescue:R R62
 U 1 1 5355E8E2
 P 10150 6850
 F 0 "R62" V 10230 6850 40  0000 C CNN
@@ -1739,7 +1708,7 @@ F 3 "~" H 10150 6850 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR043
+L juno-chorus-clone-rescue:GND #PWR043
 U 1 1 5355E8E8
 P 9800 7200
 F 0 "#PWR043" H 9800 7200 30  0001 C CNN
@@ -1750,7 +1719,7 @@ F 3 "" H 9800 7200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C31
+L juno-chorus-clone-rescue:CP1 C31
 U 1 1 5355E91A
 P 11950 6750
 F 0 "C31" H 12000 6850 50  0000 L CNN
@@ -1761,7 +1730,7 @@ F 3 "~" H 11950 6750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R74
+L juno-chorus-clone-rescue:R R74
 U 1 1 5355E920
 P 12200 7100
 F 0 "R74" V 12280 7100 40  0000 C CNN
@@ -1772,7 +1741,7 @@ F 3 "~" H 12200 7100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FET_N Q17
+L juno-chorus-clone-rescue:FET_N Q17
 U 1 1 5355E926
 P 12600 6600
 F 0 "Q17" H 12503 6850 70  0000 C CNN
@@ -1783,7 +1752,7 @@ F 3 "~" H 12600 6600 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DIODE D7
+L juno-chorus-clone-rescue:DIODE D7
 U 1 1 5355E92C
 P 12600 6050
 F 0 "D7" H 12600 6150 40  0000 C CNN
@@ -1794,7 +1763,7 @@ F 3 "~" H 12600 6050 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L C C18
+L juno-chorus-clone-rescue:C C18
 U 1 1 5355E939
 P 8600 6500
 F 0 "C18" H 8600 6600 40  0000 L CNN
@@ -1805,7 +1774,7 @@ F 3 "~" H 8600 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L juno-chorus-clone-rescue:R R36
 U 1 1 5355E93F
 P 6250 6350
 F 0 "R36" V 6330 6350 40  0000 C CNN
@@ -1816,7 +1785,7 @@ F 3 "~" H 6250 6350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C11
+L juno-chorus-clone-rescue:C C11
 U 1 1 5355E945
 P 6750 6700
 F 0 "C11" H 6750 6800 40  0000 L CNN
@@ -1827,7 +1796,7 @@ F 3 "~" H 6750 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L juno-chorus-clone-rescue:C C9
 U 1 1 5355E94B
 P 5700 6350
 F 0 "C9" H 5700 6450 40  0000 L CNN
@@ -1838,7 +1807,7 @@ F 3 "~" H 5700 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R34
+L juno-chorus-clone-rescue:R R34
 U 1 1 5355E951
 P 5950 6650
 F 0 "R34" V 6030 6650 40  0000 C CNN
@@ -1849,7 +1818,7 @@ F 3 "~" H 5950 6650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV4
+L juno-chorus-clone-rescue:POT RV4
 U 1 1 5355E957
 P 5950 7200
 F 0 "RV4" H 5950 7100 50  0000 C CNN
@@ -1860,7 +1829,7 @@ F 3 "~" H 5950 7200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L juno-chorus-clone-rescue:R R32
 U 1 1 5355E95D
 P 5650 7500
 F 0 "R32" V 5730 7500 40  0000 C CNN
@@ -1871,7 +1840,7 @@ F 3 "~" H 5650 7500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L juno-chorus-clone-rescue:R R38
 U 1 1 5355E963
 P 6500 7200
 F 0 "R38" V 6580 7200 40  0000 C CNN
@@ -1882,7 +1851,7 @@ F 3 "~" H 6500 7200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR044
+L juno-chorus-clone-rescue:GND #PWR044
 U 1 1 5355E969
 P 6750 6950
 F 0 "#PWR044" H 6750 6950 30  0001 C CNN
@@ -1893,7 +1862,7 @@ F 3 "" H 6750 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L juno-chorus-clone-rescue:GND #PWR045
 U 1 1 5355E96F
 P 5650 7800
 F 0 "#PWR045" H 5650 7800 30  0001 C CNN
@@ -1904,7 +1873,7 @@ F 3 "" H 5650 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L juno-chorus-clone-rescue:GND #PWR046
 U 1 1 5355E97F
 P 6750 7650
 F 0 "#PWR046" H 6750 7650 30  0001 C CNN
@@ -1915,7 +1884,7 @@ F 3 "" H 6750 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L juno-chorus-clone-rescue:GND #PWR047
 U 1 1 5355E98F
 P 11350 7450
 F 0 "#PWR047" H 11350 7450 30  0001 C CNN
@@ -1926,7 +1895,7 @@ F 3 "" H 11350 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L juno-chorus-clone-rescue:GND #PWR048
 U 1 1 5355E996
 P 8400 6900
 F 0 "#PWR048" H 8400 6900 30  0001 C CNN
@@ -1937,7 +1906,7 @@ F 3 "" H 8400 6900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L juno-chorus-clone-rescue:GND #PWR049
 U 1 1 5355E9A2
 P 6750 6200
 F 0 "#PWR049" H 6750 6200 30  0001 C CNN
@@ -1948,7 +1917,7 @@ F 3 "" H 6750 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C15
+L juno-chorus-clone-rescue:CP1 C15
 U 1 1 5355E9AF
 P 7350 6800
 F 0 "C15" H 7400 6900 50  0000 L CNN
@@ -1959,7 +1928,7 @@ F 3 "~" H 7350 6800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR050
+L juno-chorus-clone-rescue:GND #PWR050
 U 1 1 5355E9B5
 P 6850 8450
 F 0 "#PWR050" H 6850 8450 30  0001 C CNN
@@ -1970,7 +1939,7 @@ F 3 "" H 6850 8450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R40
+L juno-chorus-clone-rescue:R R40
 U 1 1 5355E9BE
 P 6650 8100
 F 0 "R40" V 6730 8100 40  0000 C CNN
@@ -1981,7 +1950,7 @@ F 3 "~" H 6650 8100 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L -VAA #PWR051
+L juno-chorus-clone-rescue:-VAA #PWR051
 U 1 1 5355E9C6
 P 6650 8400
 F 0 "#PWR051" H 6650 8500 20  0001 C CNN
@@ -1992,7 +1961,7 @@ F 3 "" H 6650 8400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R42
+L juno-chorus-clone-rescue:R R42
 U 1 1 5355E9CD
 P 7350 7350
 F 0 "R42" V 7430 7350 40  0000 C CNN
@@ -2003,7 +1972,7 @@ F 3 "~" H 7350 7350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R18
+L juno-chorus-clone-rescue:R R18
 U 1 1 5355E9E3
 P 3500 6550
 F 0 "R18" V 3580 6550 40  0000 C CNN
@@ -2014,7 +1983,7 @@ F 3 "~" H 3500 6550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R17
+L juno-chorus-clone-rescue:R R17
 U 1 1 5355E9E9
 P 3500 6350
 F 0 "R17" V 3580 6350 40  0000 C CNN
@@ -2025,7 +1994,7 @@ F 3 "~" H 3500 6350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R23
+L juno-chorus-clone-rescue:R R23
 U 1 1 5355E9EF
 P 4450 6350
 F 0 "R23" V 4530 6350 40  0000 C CNN
@@ -2036,7 +2005,7 @@ F 3 "~" H 4450 6350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR052
+L juno-chorus-clone-rescue:GND #PWR052
 U 1 1 5355E9F5
 P 4750 6400
 F 0 "#PWR052" H 4750 6400 30  0001 C CNN
@@ -2047,7 +2016,7 @@ F 3 "" H 4750 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L juno-chorus-clone-rescue:R R8
 U 1 1 5355E9FB
 P 2700 6500
 F 0 "R8" V 2780 6500 40  0000 C CNN
@@ -2058,7 +2027,7 @@ F 3 "~" H 2700 6500 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR053
+L juno-chorus-clone-rescue:VAA #PWR053
 U 1 1 5355EA01
 P 2700 6150
 F 0 "#PWR053" H 2700 6210 30  0001 C CNN
@@ -2069,7 +2038,7 @@ F 3 "" H 2700 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L juno-chorus-clone-rescue:R R26
 U 1 1 5355EA07
 P 4850 7150
 F 0 "R26" V 4930 7150 40  0000 C CNN
@@ -2080,7 +2049,7 @@ F 3 "~" H 4850 7150 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D4
+L juno-chorus-clone-rescue:DIODE D4
 U 1 1 5355EA2E
 P 3450 7400
 F 0 "D4" H 3450 7250 40  0000 C CNN
@@ -2091,7 +2060,7 @@ F 3 "~" H 3450 7400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R21
+L juno-chorus-clone-rescue:R R21
 U 1 1 5355EA34
 P 4100 7400
 F 0 "R21" V 4180 7400 40  0000 C CNN
@@ -2102,7 +2071,7 @@ F 3 "~" H 4100 7400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C7
+L juno-chorus-clone-rescue:C C7
 U 1 1 5355EA3A
 P 4400 7950
 F 0 "C7" H 4400 8050 40  0000 L CNN
@@ -2113,7 +2082,7 @@ F 3 "~" H 4400 7950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L juno-chorus-clone-rescue:R R28
 U 1 1 5355EA40
 P 5000 7950
 F 0 "R28" V 5080 7950 40  0000 C CNN
@@ -2124,7 +2093,7 @@ F 3 "~" H 5000 7950 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R30
+L juno-chorus-clone-rescue:R R30
 U 1 1 5355EA46
 P 5300 7950
 F 0 "R30" V 5380 7950 40  0000 C CNN
@@ -2135,7 +2104,7 @@ F 3 "~" H 5300 7950 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L juno-chorus-clone-rescue:R R10
 U 1 1 5355EA4C
 P 3050 7700
 F 0 "R10" V 3130 7700 40  0000 C CNN
@@ -2146,7 +2115,7 @@ F 3 "~" H 3050 7700 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R6
+L juno-chorus-clone-rescue:R R6
 U 1 1 5355EA52
 P 2400 8000
 F 0 "R6" V 2480 8000 40  0000 C CNN
@@ -2157,7 +2126,7 @@ F 3 "~" H 2400 8000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14
+L juno-chorus-clone-rescue:R R14
 U 1 1 5355EA5E
 P 3450 7950
 F 0 "R14" V 3530 7950 40  0000 C CNN
@@ -2168,7 +2137,7 @@ F 3 "~" H 3450 7950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L juno-chorus-clone-rescue:R R12
 U 1 1 5355EA64
 P 3250 7950
 F 0 "R12" V 3330 7950 40  0000 C CNN
@@ -2179,7 +2148,7 @@ F 3 "~" H 3250 7950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C13
+L juno-chorus-clone-rescue:CP1 C13
 U 1 1 5355EA9F
 P 6850 8100
 F 0 "C13" H 6600 8250 50  0000 L CNN
@@ -2190,7 +2159,7 @@ F 3 "~" H 6850 8100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR054
+L juno-chorus-clone-rescue:GND #PWR054
 U 1 1 5355EAA6
 P 7350 7050
 F 0 "#PWR054" H 7350 7050 30  0001 C CNN
@@ -2201,7 +2170,7 @@ F 3 "" H 7350 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR055
+L juno-chorus-clone-rescue:VAA #PWR055
 U 1 1 53562566
 P 10700 3850
 F 0 "#PWR055" H 10700 3910 30  0001 C CNN
@@ -2212,7 +2181,7 @@ F 3 "" H 10700 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R66
+L juno-chorus-clone-rescue:R R66
 U 1 1 5356256C
 P 10700 4150
 F 0 "R66" V 10780 4150 40  0000 C CNN
@@ -2223,7 +2192,7 @@ F 3 "~" H 10700 4150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -VAA #PWR056
+L juno-chorus-clone-rescue:-VAA #PWR056
 U 1 1 5356257C
 P 10700 5600
 F 0 "#PWR056" H 10700 5700 20  0001 C CNN
@@ -2234,7 +2203,7 @@ F 3 "" H 10700 5600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R63
+L juno-chorus-clone-rescue:R R63
 U 1 1 53562792
 P 10350 5000
 F 0 "R63" V 10430 5000 40  0000 C CNN
@@ -2245,7 +2214,7 @@ F 3 "~" H 10350 5000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R60
+L juno-chorus-clone-rescue:R R60
 U 1 1 5356279F
 P 10050 4700
 F 0 "R60" V 10130 4700 40  0000 C CNN
@@ -2256,7 +2225,7 @@ F 3 "~" H 10050 4700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1 C23
+L juno-chorus-clone-rescue:CP1 C23
 U 1 1 535627A5
 P 9750 4950
 F 0 "C23" H 9800 5050 50  0000 L CNN
@@ -2267,7 +2236,7 @@ F 3 "~" H 9750 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R57
+L juno-chorus-clone-rescue:R R57
 U 1 1 535627B2
 P 9450 4700
 F 0 "R57" V 9530 4700 40  0000 C CNN
@@ -2278,7 +2247,7 @@ F 3 "~" H 9450 4700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R55
+L juno-chorus-clone-rescue:R R55
 U 1 1 535627D2
 P 9150 4400
 F 0 "R55" V 9230 4400 40  0000 C CNN
@@ -2289,7 +2258,7 @@ F 3 "~" H 9150 4400 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R56
+L juno-chorus-clone-rescue:R R56
 U 1 1 535627D8
 P 9150 5000
 F 0 "R56" V 9230 5000 40  0000 C CNN
@@ -2300,7 +2269,7 @@ F 3 "~" H 9150 5000 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE D5
+L juno-chorus-clone-rescue:DIODE D5
 U 1 1 53562B85
 P 8900 4950
 F 0 "D5" H 8900 5050 40  0000 C CNN
@@ -2311,7 +2280,7 @@ F 3 "~" H 8900 4950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R52
+L juno-chorus-clone-rescue:R R52
 U 1 1 53562B8B
 P 8900 5450
 F 0 "R52" V 8980 5450 40  0000 C CNN
@@ -2322,7 +2291,7 @@ F 3 "~" H 8900 5450 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR057
+L juno-chorus-clone-rescue:VAA #PWR057
 U 1 1 5356522E
 P 9150 3850
 F 0 "#PWR057" H 9150 3910 30  0001 C CNN
@@ -2333,7 +2302,7 @@ F 3 "" H 9150 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C17
+L juno-chorus-clone-rescue:CP1 C17
 U 1 1 5356545D
 P 8600 4950
 F 0 "C17" H 8650 5050 50  0000 L CNN
@@ -2346,9 +2315,9 @@ $EndComp
 Wire Wire Line
 	5150 9450 5300 9450
 Wire Wire Line
-	5300 8950 5300 9950
+	5300 8950 5300 9450
 Wire Wire Line
-	700  9100 700  9850
+	700  9100 700  9300
 Wire Wire Line
 	700  9850 750  9850
 Wire Wire Line
@@ -2363,17 +2332,17 @@ Wire Wire Line
 Connection ~ 1800 9950
 Connection ~ 1800 11100
 Wire Wire Line
-	1800 11050 1800 11150
+	1800 11050 1800 11100
 Wire Wire Line
 	3600 11100 3600 10500
 Wire Wire Line
-	700  11100 4200 11100
+	700  11100 1800 11100
 Wire Wire Line
 	1800 10500 1800 10550
 Wire Wire Line
 	1750 9950 1800 9950
 Wire Wire Line
-	2450 9850 2550 9850
+	2450 9850 2500 9850
 Connection ~ 3600 9950
 Wire Wire Line
 	3600 9950 3550 9950
@@ -2384,39 +2353,39 @@ Connection ~ 2400 1500
 Wire Wire Line
 	2400 1500 2400 1600
 Wire Wire Line
-	2650 2000 2650 2100
+	2650 2000 2650 2050
 Wire Wire Line
 	2550 2050 2650 2050
 Connection ~ 2650 1500
 Wire Wire Line
-	2650 700  2650 800 
+	2650 700  2650 750 
 Wire Wire Line
-	2650 1200 2650 1600
+	2650 1200 2650 1500
 Connection ~ 2150 1500
 Wire Wire Line
-	2150 1050 2150 1750
+	2150 1050 2150 1500
 Connection ~ 1650 750 
 Wire Wire Line
 	1650 800  1650 750 
 Wire Wire Line
-	1350 750  1750 750 
+	1350 750  1650 750 
 Wire Wire Line
 	1350 800  1350 750 
 Connection ~ 1650 1500
 Wire Wire Line
-	1650 1200 1650 1600
+	1650 1200 1650 1500
 Wire Wire Line
-	1150 1500 2650 1500
+	1150 1500 1650 1500
 Connection ~ 1650 2050
 Wire Wire Line
 	1650 2000 1650 2050
 Wire Wire Line
-	1350 2050 1750 2050
+	1350 2050 1650 2050
 Wire Wire Line
 	1350 2000 1350 2050
 Connection ~ 1350 1300
 Wire Wire Line
-	1350 1200 1350 1600
+	1350 1200 1350 1300
 Wire Wire Line
 	1150 1300 1350 1300
 Connection ~ 3600 11100
@@ -2441,7 +2410,7 @@ Connection ~ 3600 9300
 Wire Wire Line
 	1400 9300 1800 9300
 Wire Wire Line
-	1800 9300 1800 10000
+	1800 9300 1800 9950
 Wire Wire Line
 	900  9300 700  9300
 Connection ~ 700  9300
@@ -2450,20 +2419,20 @@ Wire Wire Line
 Wire Wire Line
 	4200 11100 4200 10800
 Wire Wire Line
-	4050 9550 4050 10050
+	4050 9550 4050 9950
 Wire Wire Line
 	8450 1500 8550 1500
 Wire Wire Line
 	8550 1500 8550 2150
 Wire Wire Line
-	8550 2150 10650 2150
+	8550 2150 9050 2150
 Wire Wire Line
-	9050 2100 9050 2200
+	9050 2100 9050 2150
 Connection ~ 9050 2150
 Wire Wire Line
 	10450 2150 10450 2000
 Wire Wire Line
-	9050 1300 9050 1600
+	9050 1300 9050 1500
 Wire Wire Line
 	9050 1300 8950 1300
 Wire Wire Line
@@ -2472,7 +2441,7 @@ Connection ~ 9050 1500
 Wire Wire Line
 	9300 1300 9300 900 
 Wire Wire Line
-	10450 900  10450 1500
+	10450 900  10450 1400
 Wire Wire Line
 	10450 1400 10350 1400
 Connection ~ 10450 1400
@@ -2486,7 +2455,7 @@ Wire Wire Line
 	10700 1300 11250 1300
 Connection ~ 10450 2150
 Wire Wire Line
-	11150 2150 11400 2150
+	11150 2150 11200 2150
 Wire Wire Line
 	11200 2150 11200 1500
 Wire Wire Line
@@ -2495,47 +2464,47 @@ Connection ~ 11200 2150
 Wire Wire Line
 	11900 2150 12300 2150
 Wire Wire Line
-	12300 1400 12300 3100
+	12300 1400 12300 2150
 Wire Wire Line
-	12250 1400 12350 1400
+	12250 1400 12300 1400
 Wire Wire Line
 	8550 1300 8450 1300
 Wire Wire Line
-	12850 1400 12950 1400
+	12850 1400 12900 1400
 Wire Wire Line
 	12900 1400 12900 1650
 Connection ~ 12900 1400
 Wire Wire Line
-	13300 1650 13900 1650
+	13300 1650 13850 1650
 Wire Wire Line
-	13850 1600 13850 1750
+	13850 1600 13850 1650
 Connection ~ 13850 1650
 Wire Wire Line
-	15400 1850 15400 2000
+	15400 1850 15400 1900
 Wire Wire Line
-	14850 1900 15800 1900
+	14850 1900 15400 1900
 Connection ~ 15400 1900
 Wire Wire Line
 	15050 2000 15050 1650
 Wire Wire Line
-	15000 1650 15100 1650
+	15000 1650 15050 1650
 Connection ~ 15050 1650
 Wire Wire Line
 	14450 1900 14450 1650
 Wire Wire Line
-	14400 1650 14500 1650
+	14400 1650 14450 1650
 Connection ~ 14450 1650
 Wire Wire Line
 	13850 1200 13850 1150
 Wire Wire Line
-	13850 1150 15550 1150
+	13850 1150 15400 1150
 Wire Wire Line
 	15400 1150 15400 1450
 Wire Wire Line
 	15550 1150 15550 1200
 Connection ~ 15400 1150
 Wire Wire Line
-	13850 2550 15550 2550
+	13850 2550 15400 2550
 Wire Wire Line
 	15550 2550 15550 2500
 Wire Wire Line
@@ -2544,7 +2513,7 @@ Wire Wire Line
 	13850 2550 13850 2250
 Connection ~ 15400 2550
 Wire Wire Line
-	13500 2150 13500 2500
+	13500 2150 13500 2450
 Wire Wire Line
 	13500 2450 15050 2450
 Wire Wire Line
@@ -2553,13 +2522,13 @@ Connection ~ 13500 2450
 Wire Wire Line
 	13500 1750 13500 1400
 Wire Wire Line
-	13450 1400 13550 1400
+	13450 1400 13500 1400
 Connection ~ 13500 1400
 Connection ~ 12300 1400
 Wire Wire Line
 	9300 900  10450 900 
 Wire Wire Line
-	14850 3700 14950 3700
+	14850 3700 14900 3700
 Wire Wire Line
 	15450 3700 15500 3700
 Wire Wire Line
@@ -2571,11 +2540,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 3800 13850 3800
 Wire Wire Line
-	13650 3600 13850 3600
+	13650 3600 13750 3600
 Wire Wire Line
 	13750 3600 13750 3100
 Wire Wire Line
-	13650 3100 14050 3100
+	13650 3100 13750 3100
 Connection ~ 13750 3600
 Connection ~ 13750 3100
 Wire Wire Line
@@ -2584,34 +2553,34 @@ Wire Wire Line
 	14900 3100 14900 3700
 Connection ~ 14900 3700
 Wire Wire Line
-	9150 3100 9250 3100
+	9150 3100 9200 3100
 Wire Wire Line
 	9200 3100 9200 3350
 Connection ~ 9200 3100
 Wire Wire Line
-	9600 3350 10200 3350
+	9600 3350 10150 3350
 Wire Wire Line
-	10150 3300 10150 3450
+	10150 3300 10150 3350
 Connection ~ 10150 3350
 Wire Wire Line
-	11700 3550 11700 3700
+	11700 3550 11700 3600
 Wire Wire Line
-	11150 3600 11750 3600
+	11150 3600 11700 3600
 Connection ~ 11700 3600
 Wire Wire Line
 	11350 3700 11350 3350
 Wire Wire Line
-	11300 3350 11400 3350
+	11300 3350 11350 3350
 Connection ~ 11350 3350
 Wire Wire Line
 	10750 3600 10750 3350
 Wire Wire Line
-	10700 3350 10800 3350
+	10700 3350 10750 3350
 Connection ~ 10750 3350
 Wire Wire Line
 	10150 2900 10150 2850
 Wire Wire Line
-	10150 2850 11850 2850
+	10150 2850 11700 2850
 Wire Wire Line
 	11700 2850 11700 3150
 Wire Wire Line
@@ -2620,25 +2589,25 @@ Connection ~ 11700 2850
 Wire Wire Line
 	9800 3450 9800 3100
 Wire Wire Line
-	9750 3100 9850 3100
+	9750 3100 9800 3100
 Connection ~ 9800 3100
 Wire Wire Line
 	11700 4250 11700 4200
 Wire Wire Line
 	9800 4000 10150 4000
 Wire Wire Line
-	11350 4250 12200 4250
+	11350 4250 11700 4250
 Wire Wire Line
-	9800 3850 9800 4050
+	9800 3850 9800 4000
 Connection ~ 9800 4000
 Wire Wire Line
 	10150 4000 10150 3950
 Wire Wire Line
-	11350 4100 11350 4300
+	11350 4100 11350 4250
 Wire Wire Line
 	12200 3700 12200 3600
 Wire Wire Line
-	12150 3600 12250 3600
+	12150 3600 12200 3600
 Connection ~ 12200 3600
 Wire Wire Line
 	12950 3600 13150 3600
@@ -2648,12 +2617,12 @@ Connection ~ 11700 4250
 Wire Wire Line
 	12600 4100 12600 4050
 Wire Wire Line
-	5900 3200 6000 3200
+	5900 3200 5950 3200
 Wire Wire Line
 	5950 3250 5950 3200
 Connection ~ 5950 3200
 Wire Wire Line
-	6500 3200 7000 3200
+	6500 3200 6750 3200
 Wire Wire Line
 	6750 3350 6750 3200
 Connection ~ 6750 3200
@@ -2676,16 +2645,16 @@ Wire Wire Line
 Wire Wire Line
 	8600 3100 8600 3150
 Wire Wire Line
-	8300 3100 8650 3100
+	8300 3100 8400 3100
 Connection ~ 8600 3100
 Wire Wire Line
-	8400 2900 8400 3150
+	8400 2900 8400 3100
 Connection ~ 8400 3100
 Wire Wire Line
 	8300 2900 8400 2900
 Connection ~ 11350 4250
 Wire Wire Line
-	8400 3650 8400 3750
+	8400 3650 8400 3700
 Wire Wire Line
 	8400 3700 8600 3700
 Wire Wire Line
@@ -2714,21 +2683,21 @@ Wire Wire Line
 Wire Wire Line
 	6850 4650 6850 4750
 Wire Wire Line
-	6200 4650 7000 4650
+	6200 4650 6650 4650
 Wire Wire Line
 	6650 4650 6650 4700
 Connection ~ 6850 4650
 Wire Wire Line
 	6650 5250 6650 5200
 Wire Wire Line
-	6200 4200 7100 4200
+	6200 4200 7000 4200
 Connection ~ 6650 4650
 Wire Wire Line
 	7600 4200 7800 4200
 Wire Wire Line
-	7700 4550 8000 4550
+	7700 4550 7800 4550
 Wire Wire Line
-	3200 3050 3200 3450
+	3200 3050 3200 3200
 Wire Wire Line
 	3200 3200 3250 3200
 Wire Wire Line
@@ -2737,7 +2706,7 @@ Connection ~ 3200 3400
 Wire Wire Line
 	3200 3050 2700 3050
 Wire Wire Line
-	2700 3000 2700 3100
+	2700 3000 2700 3050
 Connection ~ 3200 3200
 Connection ~ 2700 3050
 Wire Wire Line
@@ -2745,20 +2714,20 @@ Wire Wire Line
 Wire Wire Line
 	3800 3400 3800 3450
 Wire Wire Line
-	3750 3200 4200 3200
+	3750 3200 4150 3200
 Wire Wire Line
 	4700 3200 4750 3200
 Wire Wire Line
 	4750 3200 4750 3250
 Wire Wire Line
-	2700 3600 2700 4050
+	2700 3600 2700 3650
 Wire Wire Line
 	2700 3650 2900 3650
 Connection ~ 2700 3650
 Wire Wire Line
-	3650 4250 3850 4250
+	3650 4250 3800 4250
 Wire Wire Line
-	3800 3850 3800 4300
+	3800 3850 3800 4250
 Connection ~ 3800 4250
 Wire Wire Line
 	4600 4000 3200 4000
@@ -2767,26 +2736,26 @@ Wire Wire Line
 Wire Wire Line
 	3050 4300 3050 4250
 Wire Wire Line
-	3000 4250 3250 4250
+	3000 4250 3050 4250
 Connection ~ 3050 4250
 Wire Wire Line
 	3250 4550 3250 4500
 Wire Wire Line
-	3250 4500 3500 4500
+	3250 4500 3450 4500
 Wire Wire Line
 	3450 4550 3450 4500
 Connection ~ 3450 4500
 Wire Wire Line
 	4400 4600 4400 4250
 Wire Wire Line
-	4350 4250 4650 4250
+	4350 4250 4400 4250
 Wire Wire Line
 	4650 4250 4650 4300
 Connection ~ 4400 4250
 Wire Wire Line
 	3450 5050 3450 5100
 Wire Wire Line
-	6200 5100 3450 5100
+	6200 5100 5000 5100
 Wire Wire Line
 	5000 5100 5000 5050
 Wire Wire Line
@@ -2814,13 +2783,13 @@ Wire Wire Line
 	7000 4050 7000 4200
 Connection ~ 7000 4200
 Wire Wire Line
-	4950 4500 5300 4500
+	4950 4500 5000 4500
 Wire Wire Line
 	5000 4500 5000 4550
 Wire Wire Line
 	5650 4650 5650 4600
 Wire Wire Line
-	6200 4200 6200 5100
+	6200 4200 6200 4650
 Connection ~ 5000 5100
 Wire Wire Line
 	4100 3650 4150 3650
@@ -2840,7 +2809,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 4450 2700 4850
 Wire Wire Line
-	2650 4850 3050 4850
+	2650 4850 2700 4850
 Wire Wire Line
 	3050 4850 3050 4800
 Wire Wire Line
@@ -2862,9 +2831,9 @@ Wire Wire Line
 	2650 750  2550 750 
 Connection ~ 2650 750 
 Wire Wire Line
-	7000 3400 7700 3400
+	7000 3400 7350 3400
 Wire Wire Line
-	6750 4050 7800 4050
+	6750 4050 7000 4050
 Wire Wire Line
 	7350 3900 7350 3850
 Wire Wire Line
@@ -2872,7 +2841,7 @@ Wire Wire Line
 Connection ~ 7350 3400
 Connection ~ 7000 4050
 Wire Wire Line
-	14850 6850 14950 6850
+	14850 6850 14900 6850
 Wire Wire Line
 	15450 6850 15500 6850
 Wire Wire Line
@@ -2884,11 +2853,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 6950 13850 6950
 Wire Wire Line
-	13650 6750 13850 6750
+	13650 6750 13750 6750
 Wire Wire Line
 	13750 6750 13750 6250
 Wire Wire Line
-	13650 6250 14050 6250
+	13650 6250 13750 6250
 Connection ~ 13750 6750
 Connection ~ 13750 6250
 Wire Wire Line
@@ -2897,34 +2866,34 @@ Wire Wire Line
 	14900 6250 14900 6850
 Connection ~ 14900 6850
 Wire Wire Line
-	9150 6250 9250 6250
+	9150 6250 9200 6250
 Wire Wire Line
 	9200 6250 9200 6500
 Connection ~ 9200 6250
 Wire Wire Line
-	9600 6500 10200 6500
+	9600 6500 10150 6500
 Wire Wire Line
-	10150 6450 10150 6600
+	10150 6450 10150 6500
 Connection ~ 10150 6500
 Wire Wire Line
-	11700 6700 11700 6850
+	11700 6700 11700 6750
 Wire Wire Line
-	11150 6750 11750 6750
+	11150 6750 11700 6750
 Connection ~ 11700 6750
 Wire Wire Line
 	11350 6850 11350 6500
 Wire Wire Line
-	11300 6500 11400 6500
+	11300 6500 11350 6500
 Connection ~ 11350 6500
 Wire Wire Line
 	10750 6750 10750 6500
 Wire Wire Line
-	10700 6500 10800 6500
+	10700 6500 10750 6500
 Connection ~ 10750 6500
 Wire Wire Line
 	10150 6050 10150 6000
 Wire Wire Line
-	10150 6000 11850 6000
+	10150 6000 11700 6000
 Wire Wire Line
 	11700 6000 11700 6300
 Wire Wire Line
@@ -2933,25 +2902,25 @@ Connection ~ 11700 6000
 Wire Wire Line
 	9800 6600 9800 6250
 Wire Wire Line
-	9750 6250 9850 6250
+	9750 6250 9800 6250
 Connection ~ 9800 6250
 Wire Wire Line
 	11700 7400 11700 7350
 Wire Wire Line
 	9800 7150 10150 7150
 Wire Wire Line
-	11350 7400 12200 7400
+	11350 7400 11700 7400
 Wire Wire Line
-	9800 7000 9800 7200
+	9800 7000 9800 7150
 Connection ~ 9800 7150
 Wire Wire Line
 	10150 7150 10150 7100
 Wire Wire Line
-	11350 7250 11350 7450
+	11350 7250 11350 7400
 Wire Wire Line
 	12200 6850 12200 6750
 Wire Wire Line
-	12150 6750 12250 6750
+	12150 6750 12200 6750
 Connection ~ 12200 6750
 Wire Wire Line
 	12950 6750 13150 6750
@@ -2961,12 +2930,12 @@ Connection ~ 11700 7400
 Wire Wire Line
 	12600 6250 12600 6300
 Wire Wire Line
-	5900 6350 6000 6350
+	5900 6350 5950 6350
 Wire Wire Line
 	5950 6400 5950 6350
 Connection ~ 5950 6350
 Wire Wire Line
-	6500 6350 7000 6350
+	6500 6350 6750 6350
 Wire Wire Line
 	6750 6500 6750 6350
 Connection ~ 6750 6350
@@ -2989,16 +2958,16 @@ Wire Wire Line
 Wire Wire Line
 	8600 6250 8600 6300
 Wire Wire Line
-	8300 6250 8650 6250
+	8300 6250 8400 6250
 Connection ~ 8600 6250
 Wire Wire Line
-	8400 6050 8400 6300
+	8400 6050 8400 6250
 Connection ~ 8400 6250
 Wire Wire Line
 	8300 6050 8400 6050
 Connection ~ 11350 7400
 Wire Wire Line
-	8400 6800 8400 6900
+	8400 6800 8400 6850
 Wire Wire Line
 	8400 6850 8600 6850
 Wire Wire Line
@@ -3027,21 +2996,21 @@ Wire Wire Line
 Wire Wire Line
 	6850 7800 6850 7900
 Wire Wire Line
-	6200 7800 7000 7800
+	6200 7800 6650 7800
 Wire Wire Line
 	6650 7800 6650 7850
 Connection ~ 6850 7800
 Wire Wire Line
 	6650 8400 6650 8350
 Wire Wire Line
-	6200 7350 7100 7350
+	6200 7350 7000 7350
 Connection ~ 6650 7800
 Wire Wire Line
 	7600 7350 7800 7350
 Wire Wire Line
-	7700 7700 8000 7700
+	7700 7700 7800 7700
 Wire Wire Line
-	3200 6200 3200 6600
+	3200 6200 3200 6350
 Wire Wire Line
 	3200 6350 3250 6350
 Wire Wire Line
@@ -3050,7 +3019,7 @@ Connection ~ 3200 6550
 Wire Wire Line
 	3200 6200 2700 6200
 Wire Wire Line
-	2700 6150 2700 6250
+	2700 6150 2700 6200
 Connection ~ 3200 6350
 Connection ~ 2700 6200
 Wire Wire Line
@@ -3058,20 +3027,20 @@ Wire Wire Line
 Wire Wire Line
 	3800 6550 3800 6600
 Wire Wire Line
-	3750 6350 4200 6350
+	3750 6350 4150 6350
 Wire Wire Line
 	4700 6350 4750 6350
 Wire Wire Line
 	4750 6350 4750 6400
 Wire Wire Line
-	2700 6750 2700 7200
+	2700 6750 2700 6800
 Wire Wire Line
 	2700 6800 2900 6800
 Connection ~ 2700 6800
 Wire Wire Line
-	3650 7400 3850 7400
+	3650 7400 3800 7400
 Wire Wire Line
-	3800 7000 3800 7450
+	3800 7000 3800 7400
 Connection ~ 3800 7400
 Wire Wire Line
 	4600 7150 3200 7150
@@ -3080,26 +3049,26 @@ Wire Wire Line
 Wire Wire Line
 	3050 7450 3050 7400
 Wire Wire Line
-	3000 7400 3250 7400
+	3000 7400 3050 7400
 Connection ~ 3050 7400
 Wire Wire Line
 	3250 7700 3250 7650
 Wire Wire Line
-	3250 7650 3500 7650
+	3250 7650 3450 7650
 Wire Wire Line
 	3450 7700 3450 7650
 Connection ~ 3450 7650
 Wire Wire Line
 	4400 7750 4400 7400
 Wire Wire Line
-	4350 7400 4650 7400
+	4350 7400 4400 7400
 Wire Wire Line
 	4650 7400 4650 7450
 Connection ~ 4400 7400
 Wire Wire Line
 	3450 8200 3450 8250
 Wire Wire Line
-	6200 8250 3450 8250
+	6200 8250 5000 8250
 Wire Wire Line
 	5000 8250 5000 8200
 Wire Wire Line
@@ -3127,13 +3096,13 @@ Wire Wire Line
 	7000 7200 7000 7350
 Connection ~ 7000 7350
 Wire Wire Line
-	4950 7650 5300 7650
+	4950 7650 5000 7650
 Wire Wire Line
 	5000 7650 5000 7700
 Wire Wire Line
 	5650 7800 5650 7750
 Wire Wire Line
-	6200 7350 6200 8250
+	6200 7350 6200 7800
 Connection ~ 5000 8250
 Wire Wire Line
 	4100 6800 4150 6800
@@ -3153,7 +3122,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 7600 2700 8000
 Wire Wire Line
-	2650 8000 3050 8000
+	2650 8000 2700 8000
 Wire Wire Line
 	3050 8000 3050 7950
 Wire Wire Line
@@ -3172,9 +3141,9 @@ Wire Wire Line
 	5150 7150 5150 8700
 Connection ~ 2700 8000
 Wire Wire Line
-	7000 6550 7700 6550
+	7000 6550 7350 6550
 Wire Wire Line
-	6750 7200 7800 7200
+	6750 7200 7000 7200
 Wire Wire Line
 	7350 7050 7350 7000
 Wire Wire Line
@@ -3195,7 +3164,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 9350 4150 9350
 Wire Wire Line
-	3600 9100 3600 10000
+	3600 9100 3600 9300
 Wire Wire Line
 	2300 9100 3600 9100
 Wire Wire Line
@@ -3203,11 +3172,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 8850 5400 8850
 Wire Wire Line
-	5400 8850 5400 10700
+	5400 8850 5400 10100
 Wire Wire Line
 	1800 8950 1800 4850
 Wire Wire Line
-	12300 3100 13150 3100
+	12300 3100 13050 3100
 Connection ~ 12300 2150
 Wire Wire Line
 	13050 3100 13050 6250
@@ -3223,10 +3192,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 6350 5500 6350
 Wire Wire Line
-	5450 700  5450 6350
+	5450 700  5450 3200
 Connection ~ 5450 3200
 Wire Wire Line
-	12600 4500 12600 5850
+	12600 4500 12600 4600
 Wire Wire Line
 	3250 8200 3250 8250
 Wire Wire Line
@@ -3238,28 +3207,28 @@ Wire Wire Line
 Wire Wire Line
 	8900 4700 8900 4750
 Wire Wire Line
-	8400 4700 9200 4700
+	8400 4700 8600 4700
 Wire Wire Line
-	9150 4650 9150 4750
+	9150 4650 9150 4700
 Connection ~ 9150 4700
 Wire Wire Line
-	9700 4700 9800 4700
+	9700 4700 9750 4700
 Wire Wire Line
 	9750 4700 9750 4750
 Connection ~ 9750 4700
 Wire Wire Line
-	10300 4700 10400 4700
+	10300 4700 10350 4700
 Wire Wire Line
 	10350 4700 10350 4750
 Connection ~ 10350 4700
 Wire Wire Line
-	10700 4400 10700 4500
+	10700 4400 10700 4450
 Wire Wire Line
 	10700 3900 10700 3850
 Wire Wire Line
-	9750 5550 10700 5550
+	9750 5550 10350 5550
 Wire Wire Line
-	10700 4900 10700 5600
+	10700 4900 10700 5550
 Connection ~ 10700 5550
 Wire Wire Line
 	10350 5250 10350 5550
@@ -3273,12 +3242,12 @@ Wire Wire Line
 Wire Wire Line
 	8900 5200 8900 5150
 Wire Wire Line
-	9150 3850 9150 4150
+	9150 3850 9150 4000
 Wire Wire Line
 	8600 4750 8600 4700
 Connection ~ 8900 4700
 $Comp
-L -VAA #PWR058
+L juno-chorus-clone-rescue:-VAA #PWR058
 U 1 1 53566AE3
 P 8600 5200
 F 0 "#PWR058" H 8600 5300 20  0001 C CNN
@@ -3291,7 +3260,7 @@ $EndComp
 Wire Wire Line
 	8600 5150 8600 5200
 $Comp
-L R R49
+L juno-chorus-clone-rescue:R R49
 U 1 1 53566D11
 P 8400 4400
 F 0 "R49" V 8300 4400 40  0000 C CNN
@@ -3303,7 +3272,7 @@ F 3 "~" H 8400 4400 30  0000 C CNN
 $EndComp
 Connection ~ 8600 4700
 $Comp
-L SW_PUSH SW1
+L juno-chorus-clone-rescue:SW_PUSH SW1
 U 1 1 535673A6
 P 8750 4000
 F 0 "SW1" H 8900 4110 50  0000 C CNN
@@ -3314,7 +3283,7 @@ F 3 "~" H 8750 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L juno-chorus-clone-rescue:R R47
 U 1 1 5356757A
 P 8200 4400
 F 0 "R47" V 8280 4400 40  0000 C CNN
@@ -3325,7 +3294,7 @@ F 3 "~" H 8200 4400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L juno-chorus-clone-rescue:GND #PWR059
 U 1 1 53567580
 P 8200 4750
 F 0 "#PWR059" H 8200 4750 30  0001 C CNN
@@ -3344,7 +3313,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4100 8400 4100
 Wire Wire Line
-	8400 4000 8400 4150
+	8400 4000 8400 4100
 Wire Wire Line
 	8400 4000 8450 4000
 Connection ~ 8400 4100
@@ -3359,14 +3328,14 @@ Wire Wire Line
 	11700 4600 12600 4600
 Connection ~ 10700 4450
 Wire Wire Line
-	2000 5750 9150 5750
+	2000 5750 3250 5750
 Connection ~ 8900 5750
 Connection ~ 3250 5750
 Connection ~ 12600 4600
 Wire Wire Line
 	4050 10550 4050 10600
 Wire Wire Line
-	4050 10600 4250 10600
+	4050 10600 4200 10600
 Wire Wire Line
 	4050 9550 4150 9550
 Wire Wire Line
@@ -3385,7 +3354,7 @@ Connection ~ 5400 10100
 Connection ~ 6200 4650
 Connection ~ 6200 7800
 $Comp
-L 2SC1815 Q13
+L juno-chorus-clone-rescue:2SC1815 Q13
 U 1 1 53552843
 P 10600 4700
 F 0 "Q13" H 10600 4551 40  0000 R CNN
@@ -3396,7 +3365,7 @@ F 3 "~" H 10600 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q2
+L juno-chorus-clone-rescue:2SC1815 Q2
 U 1 1 5355285A
 P 2800 7400
 F 0 "Q2" H 2800 7251 40  0000 R CNN
@@ -3407,7 +3376,7 @@ F 3 "~" H 2800 7400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q5
+L juno-chorus-clone-rescue:2SC1815 Q5
 U 1 1 53552860
 P 3700 4500
 F 0 "Q5" H 3700 4351 40  0000 R CNN
@@ -3418,7 +3387,7 @@ F 3 "~" H 3700 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q6
+L juno-chorus-clone-rescue:2SC1815 Q6
 U 1 1 53552866
 P 3700 7650
 F 0 "Q6" H 3700 7501 40  0000 R CNN
@@ -3429,7 +3398,7 @@ F 3 "~" H 3700 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q9
+L juno-chorus-clone-rescue:2SC1815 Q9
 U 1 1 5355286C
 P 4750 4500
 F 0 "Q9" H 4750 4351 40  0000 R CNN
@@ -3440,7 +3409,7 @@ F 3 "~" H 4750 4500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q10
+L juno-chorus-clone-rescue:2SC1815 Q10
 U 1 1 53552872
 P 4750 7650
 F 0 "Q10" H 4750 7501 40  0000 R CNN
@@ -3451,7 +3420,7 @@ F 3 "~" H 4750 7650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2SC1815 Q1
+L juno-chorus-clone-rescue:2SC1815 Q1
 U 1 1 53552882
 P 2800 4250
 F 0 "Q1" H 2800 4101 40  0000 R CNN
@@ -3462,7 +3431,7 @@ F 3 "~" H 2800 4250 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q7
+L juno-chorus-clone-rescue:2SA1016 Q7
 U 1 1 5355288A
 P 3900 3650
 F 0 "Q7" H 3900 3501 40  0000 R CNN
@@ -3473,7 +3442,7 @@ F 3 "~" H 3900 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2SA1016 Q18
+L juno-chorus-clone-rescue:2SA1016 Q18
 U 1 1 535528A6
 P 13750 1400
 F 0 "Q18" H 13750 1251 40  0000 R CNN
@@ -3484,7 +3453,7 @@ F 3 "~" H 13750 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q19
+L juno-chorus-clone-rescue:2SA1016 Q19
 U 1 1 535528AC
 P 15300 1650
 F 0 "Q19" H 15300 1501 40  0000 R CNN
@@ -3495,7 +3464,7 @@ F 3 "~" H 15300 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q14
+L juno-chorus-clone-rescue:2SA1016 Q14
 U 1 1 535528BC
 P 11600 3350
 F 0 "Q14" H 11600 3201 40  0000 R CNN
@@ -3506,7 +3475,7 @@ F 3 "~" H 11600 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q11
+L juno-chorus-clone-rescue:2SA1016 Q11
 U 1 1 535528C2
 P 10050 3100
 F 0 "Q11" H 10050 2951 40  0000 R CNN
@@ -3517,7 +3486,7 @@ F 3 "~" H 10050 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q12
+L juno-chorus-clone-rescue:2SA1016 Q12
 U 1 1 535528C8
 P 10050 6250
 F 0 "Q12" H 10050 6101 40  0000 R CNN
@@ -3528,7 +3497,7 @@ F 3 "~" H 10050 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q15
+L juno-chorus-clone-rescue:2SA1016 Q15
 U 1 1 535528CE
 P 11600 6500
 F 0 "Q15" H 11600 6351 40  0000 R CNN
@@ -3539,7 +3508,7 @@ F 3 "~" H 11600 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2SA1016 Q3
+L juno-chorus-clone-rescue:2SA1016 Q3
 U 1 1 535528ED
 P 3100 3650
 F 0 "Q3" H 3100 3501 40  0000 R CNN
@@ -3550,7 +3519,7 @@ F 3 "~" H 3100 3650 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2SA1016 Q4
+L juno-chorus-clone-rescue:2SA1016 Q4
 U 1 1 535528F3
 P 3100 6800
 F 0 "Q4" H 3100 6651 40  0000 R CNN
@@ -3561,7 +3530,7 @@ F 3 "~" H 3100 6800 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2SA1016 Q8
+L juno-chorus-clone-rescue:2SA1016 Q8
 U 1 1 53552903
 P 3900 6800
 F 0 "Q8" H 3900 6651 40  0000 R CNN
@@ -3571,4 +3540,302 @@ F 3 "~" H 3900 6800 60  0000 C CNN
 	1    3900 6800
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2500 11100 3600 11100
+Wire Wire Line
+	1800 9950 1800 10000
+Wire Wire Line
+	1800 11100 1800 11150
+Wire Wire Line
+	1800 11100 2500 11100
+Wire Wire Line
+	3600 9950 3600 10000
+Wire Wire Line
+	2650 2050 2650 2100
+Wire Wire Line
+	2400 1500 2650 1500
+Wire Wire Line
+	2650 1500 2650 1600
+Wire Wire Line
+	2150 1500 2150 1750
+Wire Wire Line
+	2150 1500 2400 1500
+Wire Wire Line
+	1650 750  1750 750 
+Wire Wire Line
+	1650 1500 1650 1600
+Wire Wire Line
+	1650 1500 2150 1500
+Wire Wire Line
+	1650 2050 1750 2050
+Wire Wire Line
+	1350 1300 1350 1600
+Wire Wire Line
+	3600 11100 4200 11100
+Wire Wire Line
+	2500 9850 2550 9850
+Wire Wire Line
+	3600 9300 3600 9950
+Wire Wire Line
+	700  9300 700  9850
+Wire Wire Line
+	9050 2150 10450 2150
+Wire Wire Line
+	9050 2150 9050 2200
+Wire Wire Line
+	9050 1500 9050 1600
+Wire Wire Line
+	10450 1400 10450 1500
+Wire Wire Line
+	10450 2150 10650 2150
+Wire Wire Line
+	11200 2150 11400 2150
+Wire Wire Line
+	12900 1400 12950 1400
+Wire Wire Line
+	13850 1650 13900 1650
+Wire Wire Line
+	13850 1650 13850 1750
+Wire Wire Line
+	15400 1900 15400 2000
+Wire Wire Line
+	15400 1900 15800 1900
+Wire Wire Line
+	15050 1650 15100 1650
+Wire Wire Line
+	14450 1650 14500 1650
+Wire Wire Line
+	15400 1150 15550 1150
+Wire Wire Line
+	15400 2550 15550 2550
+Wire Wire Line
+	13500 2450 13500 2500
+Wire Wire Line
+	13500 1400 13550 1400
+Wire Wire Line
+	12300 1400 12350 1400
+Wire Wire Line
+	13750 3600 13850 3600
+Wire Wire Line
+	13750 3100 14050 3100
+Wire Wire Line
+	14900 3700 14950 3700
+Wire Wire Line
+	9200 3100 9250 3100
+Wire Wire Line
+	10150 3350 10200 3350
+Wire Wire Line
+	10150 3350 10150 3450
+Wire Wire Line
+	11700 3600 11700 3700
+Wire Wire Line
+	11700 3600 11750 3600
+Wire Wire Line
+	11350 3350 11400 3350
+Wire Wire Line
+	10750 3350 10800 3350
+Wire Wire Line
+	11700 2850 11850 2850
+Wire Wire Line
+	9800 3100 9850 3100
+Wire Wire Line
+	9800 4000 9800 4050
+Wire Wire Line
+	12200 3600 12250 3600
+Wire Wire Line
+	11700 4250 12200 4250
+Wire Wire Line
+	5950 3200 6000 3200
+Wire Wire Line
+	6750 3200 7000 3200
+Wire Wire Line
+	8600 3100 8650 3100
+Wire Wire Line
+	8400 3100 8600 3100
+Wire Wire Line
+	8400 3100 8400 3150
+Wire Wire Line
+	11350 4250 11350 4300
+Wire Wire Line
+	8400 3700 8400 3750
+Wire Wire Line
+	6850 4650 7000 4650
+Wire Wire Line
+	6650 4650 6850 4650
+Wire Wire Line
+	3200 3400 3200 3450
+Wire Wire Line
+	3200 3200 3200 3400
+Wire Wire Line
+	2700 3050 2700 3100
+Wire Wire Line
+	2700 3650 2700 4050
+Wire Wire Line
+	3800 4250 3850 4250
+Wire Wire Line
+	3800 4250 3800 4300
+Wire Wire Line
+	3050 4250 3250 4250
+Wire Wire Line
+	3450 4500 3500 4500
+Wire Wire Line
+	4400 4250 4650 4250
+Wire Wire Line
+	4650 5100 4400 5100
+Wire Wire Line
+	4400 5100 3800 5100
+Wire Wire Line
+	3800 5100 3450 5100
+Wire Wire Line
+	7000 4200 7100 4200
+Wire Wire Line
+	5000 5100 4650 5100
+Wire Wire Line
+	4150 3200 4200 3200
+Wire Wire Line
+	7800 4550 8000 4550
+Wire Wire Line
+	5000 4500 5300 4500
+Wire Wire Line
+	2700 4850 3050 4850
+Wire Wire Line
+	2650 750  2650 800 
+Wire Wire Line
+	7350 3400 7700 3400
+Wire Wire Line
+	7000 4050 7800 4050
+Wire Wire Line
+	13750 6750 13850 6750
+Wire Wire Line
+	13750 6250 14050 6250
+Wire Wire Line
+	14900 6850 14950 6850
+Wire Wire Line
+	9200 6250 9250 6250
+Wire Wire Line
+	10150 6500 10200 6500
+Wire Wire Line
+	10150 6500 10150 6600
+Wire Wire Line
+	11700 6750 11700 6850
+Wire Wire Line
+	11700 6750 11750 6750
+Wire Wire Line
+	11350 6500 11400 6500
+Wire Wire Line
+	10750 6500 10800 6500
+Wire Wire Line
+	11700 6000 11850 6000
+Wire Wire Line
+	9800 6250 9850 6250
+Wire Wire Line
+	9800 7150 9800 7200
+Wire Wire Line
+	12200 6750 12250 6750
+Wire Wire Line
+	11700 7400 12200 7400
+Wire Wire Line
+	5950 6350 6000 6350
+Wire Wire Line
+	6750 6350 7000 6350
+Wire Wire Line
+	8600 6250 8650 6250
+Wire Wire Line
+	8400 6250 8600 6250
+Wire Wire Line
+	8400 6250 8400 6300
+Wire Wire Line
+	11350 7400 11350 7450
+Wire Wire Line
+	8400 6850 8400 6900
+Wire Wire Line
+	6850 7800 7000 7800
+Wire Wire Line
+	6650 7800 6850 7800
+Wire Wire Line
+	3200 6550 3200 6600
+Wire Wire Line
+	3200 6350 3200 6550
+Wire Wire Line
+	2700 6200 2700 6250
+Wire Wire Line
+	2700 6800 2700 7200
+Wire Wire Line
+	3800 7400 3850 7400
+Wire Wire Line
+	3800 7400 3800 7450
+Wire Wire Line
+	3050 7400 3250 7400
+Wire Wire Line
+	3450 7650 3500 7650
+Wire Wire Line
+	4400 7400 4650 7400
+Wire Wire Line
+	4650 8250 4400 8250
+Wire Wire Line
+	4400 8250 3800 8250
+Wire Wire Line
+	3800 8250 3450 8250
+Wire Wire Line
+	7000 7350 7100 7350
+Wire Wire Line
+	5000 8250 4650 8250
+Wire Wire Line
+	4150 6350 4200 6350
+Wire Wire Line
+	7800 7700 8000 7700
+Wire Wire Line
+	5000 7650 5300 7650
+Wire Wire Line
+	2700 8000 3050 8000
+Wire Wire Line
+	7350 6550 7700 6550
+Wire Wire Line
+	7000 7200 7800 7200
+Wire Wire Line
+	5300 9450 5300 9950
+Wire Wire Line
+	12300 2150 12300 3100
+Wire Wire Line
+	13050 3100 13150 3100
+Wire Wire Line
+	5450 3200 5450 6350
+Wire Wire Line
+	9150 4700 9200 4700
+Wire Wire Line
+	9150 4700 9150 4750
+Wire Wire Line
+	9750 4700 9800 4700
+Wire Wire Line
+	10350 4700 10400 4700
+Wire Wire Line
+	10700 5550 10700 5600
+Wire Wire Line
+	10350 5550 10700 5550
+Wire Wire Line
+	8900 4700 9150 4700
+Wire Wire Line
+	8600 4700 8900 4700
+Wire Wire Line
+	8400 4100 8400 4150
+Wire Wire Line
+	9150 4000 9150 4150
+Wire Wire Line
+	10700 4450 10700 4500
+Wire Wire Line
+	8900 5750 9150 5750
+Wire Wire Line
+	3250 5750 8900 5750
+Wire Wire Line
+	12600 4600 12600 5850
+Wire Wire Line
+	4200 10600 4250 10600
+Wire Wire Line
+	4050 9950 4050 10050
+Wire Wire Line
+	5400 10100 5400 10700
+Wire Wire Line
+	6200 4650 6200 5100
+Wire Wire Line
+	6200 7800 6200 8250
 $EndSCHEMATC

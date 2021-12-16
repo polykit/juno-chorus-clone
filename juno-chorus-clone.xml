@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jan/synth/github.com/gligli/juno-chorus-clone/juno-chorus-clone.sch</source>
+    <date>Fri Jul  9 23:44:27 2021</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu20.10.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Roland Juno-60 chorus board clone</title>
+        <company>GliGli's DIY</company>
+        <rev>4</rev>
+        <date>12 sep 2015</date>
+        <source>juno-chorus-clone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>LM7815CT</value>
+      <footprint>TO-220</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="LM7815CT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354EA92</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM7915CT</value>
+      <footprint>TO-220</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="LM7915CT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354EAA1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>15VAC_IN</value>
+      <libsource lib="juno-chorus-clone-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354EAC3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1000u 25v</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354F958</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000u 25v</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354F965</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354F9F2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354F9F8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FA00</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FA2B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <libsource lib="juno-chorus-clone-rescue" part="TL082" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCA2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TL082</value>
+      <libsource lib="juno-chorus-clone-rescue" part="TL082" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCBA</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCD7</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCE4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCEC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCF9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FCFF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FD05</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5354FD27</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>470k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535501D3</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>470k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535501D9</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>AUDIO_IN</value>
+      <libsource lib="juno-chorus-clone-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551577</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>100k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551584</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TL082</value>
+      <libsource lib="juno-chorus-clone-rescue" part="TL082" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551593</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535515AD</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535515BC</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551633</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551643</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E17</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E27</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E41</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E47</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>680p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E5F</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>270p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E6C</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>820p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E72</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1n8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53551E8C</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552088</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552093</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TL082</value>
+      <libsource lib="juno-chorus-clone-rescue" part="TL082" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552AED</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>AUDIO_OUT_1</value>
+      <libsource lib="juno-chorus-clone-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552AFD</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>1k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552D14</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>39k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552D36</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>47k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552D3C</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552D58</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MN3009</value>
+      <libsource lib="juno-chorus-clone-rescue" part="DIL8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553456</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MN3101</value>
+      <libsource lib="juno-chorus-clone-rescue" part="DIL8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355346D</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>3k3</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553484</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>3k3</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355349B</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>47k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534C5</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534D7</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534DD</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534E3</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534E9</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>680p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534EF</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>270p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534F5</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>820p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535534FB</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1n8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553501</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553519</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355351F</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553CD6</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553CE3</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>2SK30</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="FET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553CEB</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53553CFA</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2n2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53554307</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355433F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>2n2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53554345</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355434B</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53554351</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355441A</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>15k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53554420</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>12k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355442C</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535564D4</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355682D</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>1k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556A64</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>8k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556CCB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556CDB</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556CE1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556CED</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53556CF9</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CA9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>6k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CC0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>150p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CC6</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CD6</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CDC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CEC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53557CF2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53558470</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>330k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53558494</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355CDD1</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>AUDIO_OUT_2</value>
+      <libsource lib="juno-chorus-clone-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E846</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>1k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E84C</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>39k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E858</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>47k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E85E</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E870</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MN3009</value>
+      <libsource lib="juno-chorus-clone-rescue" part="DIL8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E87C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MN3101</value>
+      <libsource lib="juno-chorus-clone-rescue" part="DIL8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E882</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>3k3</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E888</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>3k3</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E88E</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>47k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E894</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8A6</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8AC</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8B2</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8B8</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>680p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8BE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>270p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8C4</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>820p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8CA</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1n8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8D0</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8DC</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E8E2</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E91A</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E920</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>2SK30</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="FET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E926</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E92C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2n2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E939</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E93F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2n2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E945</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E94B</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E951</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E957</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>15k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E95D</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>12k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E963</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9AF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9BE</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9CD</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>8k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9E3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9E9</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9EF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355E9FB</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA07</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA2E</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>6k8</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA34</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>150p</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA3A</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA40</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>22k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA46</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA4C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA52</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>33k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA5E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>330k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA64</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355EA9F</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5356256C</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>39k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53562792</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>560k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5356279F</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535627A5</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>150k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535627B2</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535627D2</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>330k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535627D8</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53562B85</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53562B8B</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2u2</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5356545D</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>330</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53566D11</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535673A6</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1k</value>
+      <footprint>~</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5356757A</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552843</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355285A</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552860</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552866</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355286C</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552872</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC1815</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SC1815" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552882</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5355288A</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528A6</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528AC</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528BC</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528C2</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528C8</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528CE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528ED</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535528F3</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2SA1015</value>
+      <footprint>TO92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="juno-chorus-clone-rescue" part="2SA1016" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53552903</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="juno-chorus-clone-rescue" part="2SA1016">
+      <footprints>
+        <fp>TO92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SA1016</field>
+        <field name="Footprint">TO92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="2SC1815">
+      <footprints>
+        <fp>TO92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">TO92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="CP1">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="DIL8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">DIL8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="FET_N">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FET_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="LM7815CT">
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7815CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="LM7915CT">
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7915CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="POT">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="juno-chorus-clone-rescue" part="TL082">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL082</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="juno-chorus-clone-rescue">
+      <uri>/home/jan/synth/github.com/gligli/juno-chorus-clone/juno-chorus-clone-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C9-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R45-Pad1)">
+      <node ref="R45" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="3" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="4" name="Net-(C11-Pad1)">
+      <node ref="U7" pin="3"/>
+      <node ref="R36" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D7-Pad1)">
+      <node ref="Q17" pin="G"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q17-PadS)">
+      <node ref="Q17" pin="S"/>
+      <node ref="R80" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C31-Pad1)">
+      <node ref="Q17" pin="D"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U7-Pad2)">
+      <node ref="U8" pin="2"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C18-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2"/>
+      <node ref="RV4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R84-Pad1)">
+      <node ref="R84" pin="1"/>
+      <node ref="R87" pin="2"/>
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="12" name="Net-(C27-Pad2)">
+      <node ref="R72" pin="1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="Q15" pin="1"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="R65" pin="2"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="R69" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R79-Pad1)">
+      <node ref="R84" pin="2"/>
+      <node ref="U10" pin="6"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R79" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C25-Pad1)">
+      <node ref="Q12" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R59" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="19" name="Net-(C27-Pad1)">
+      <node ref="R65" pin="1"/>
+      <node ref="R69" pin="2"/>
+      <node ref="C27" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R26-Pad2)">
+      <node ref="R42" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="21" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="22" name="Net-(C7-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="Q10" pin="2"/>
+    </net>
+    <net code="23" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R32-Pad1)">
+      <node ref="RV4" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R30-Pad1)">
+      <node ref="U8" pin="5"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q8-Pad3)">
+      <node ref="R23" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="27" name="Net-(Q10-Pad3)">
+      <node ref="R28" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C13-Pad2)">
+      <node ref="Q6" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U7" pin="5"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="30" name="Net-(Q2-Pad2)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D4-Pad1)">
+      <node ref="Q8" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="34" name="Net-(Q8-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="36" name="Net-(U5-Pad6)">
+      <node ref="U6" pin="4"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="37" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C30-Pad1)">
+      <node ref="R73" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="Q16" pin="D"/>
+    </net>
+    <net code="41" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="R68" pin="2"/>
+      <node ref="R64" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C8-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R43-Pad1)">
+      <node ref="U5" pin="8"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R44-Pad1)">
+      <node ref="U5" pin="7"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="Q16" pin="G"/>
+    </net>
+    <net code="47" name="Net-(Q16-PadS)">
+      <node ref="R78" pin="2"/>
+      <node ref="Q16" pin="S"/>
+    </net>
+    <net code="48" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="49" name="Net-(Q1-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="RV3" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="52" name="Net-(R25-Pad2)">
+      <node ref="U6" pin="7"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="53" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+      <node ref="R87" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C14-Pad2)">
+      <node ref="U6" pin="8"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="55" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q5-Pad3)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D3-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="59" name="Net-(Q3-Pad2)">
+      <node ref="R25" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="60" name="Net-(Q1-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(Q7-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R37-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="63" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="65" name="Net-(C6-Pad1)">
+      <node ref="Q9" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="66" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="67" name="Net-(D6-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R66" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="Q13" pin="2"/>
+    </net>
+    <net code="68" name="Net-(Q13-Pad3)">
+      <node ref="R60" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="Q13" pin="3"/>
+    </net>
+    <net code="69" name="Net-(C23-Pad1)">
+      <node ref="R60" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="70" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R47-Pad1)">
+      <node ref="R47" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="72" name="Net-(C17-Pad1)">
+      <node ref="R49" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="73" name="-VAA">
+      <node ref="U4" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U9" pin="4"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="Q19" pin="2"/>
+      <node ref="Q14" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D5-Pad1)">
+      <node ref="R52" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="75" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="R50" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R67" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="R62" pin="1"/>
+      <node ref="R74" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="RV5" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R71" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="76" name="Net-(RV2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="77" name="Net-(R19-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C26-Pad2)">
+      <node ref="Q14" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R71" pin="1"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="79" name="Net-(C20-Pad2)">
+      <node ref="R64" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C28-Pad1)">
+      <node ref="R68" pin="1"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="81" name="VAA">
+      <node ref="R8" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U10" pin="8"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="R88" pin="2"/>
+      <node ref="R66" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="82" name="Net-(C20-Pad1)">
+      <node ref="R58" pin="2"/>
+      <node ref="R51" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="83" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="84" name="Net-(R4-Pad1)">
+      <node ref="RV1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="85" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="86" name="Net-(C5-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="87" name="Net-(R19-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C5-Pad1)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="89" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="90" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="91" name="Net-(C2-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C1-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C34-Pad2)">
+      <node ref="Q19" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R88" pin="1"/>
+      <node ref="C34" pin="2"/>
+    </net>
+    <net code="95" name="Net-(C32-Pad2)">
+      <node ref="Q18" pin="1"/>
+      <node ref="R81" pin="2"/>
+      <node ref="R82" pin="2"/>
+      <node ref="C32" pin="2"/>
+    </net>
+    <net code="96" name="Net-(C35-Pad1)">
+      <node ref="Q19" pin="3"/>
+      <node ref="R85" pin="1"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="97" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="R85" pin="2"/>
+    </net>
+    <net code="98" name="Net-(C33-Pad1)">
+      <node ref="R76" pin="1"/>
+      <node ref="Q18" pin="3"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1"/>
+      <node ref="R75" pin="1"/>
+      <node ref="R76" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R83-Pad1)">
+      <node ref="R83" pin="1"/>
+      <node ref="R86" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="101" name="Net-(R77-Pad1)">
+      <node ref="R83" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="R77" pin="1"/>
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="102" name="Net-(P3-Pad1)">
+      <node ref="R86" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="103" name="Net-(RV5-Pad2)">
+      <node ref="RV5" pin="2"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="104" name="Net-(C19-Pad2)">
+      <node ref="U9" pin="3"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R54" pin="1"/>
+    </net>
+    <net code="105" name="Net-(RV5-Pad1)">
+      <node ref="RV5" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="106" name="Net-(R67-Pad1)">
+      <node ref="R67" pin="1"/>
+      <node ref="R70" pin="2"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="107" name="Net-(C19-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="108" name="Net-(R70-Pad1)">
+      <node ref="U9" pin="7"/>
+      <node ref="R79" pin="2"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R77" pin="2"/>
+      <node ref="R75" pin="2"/>
+    </net>
+    <net code="109" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+  </nets>
+</export>

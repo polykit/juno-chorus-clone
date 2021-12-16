@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# juno-chorus-clone-rescue_-VAA
+# -VAA
 #
-DEF juno-chorus-clone-rescue_-VAA #PWR 0 0 Y Y 1 F P
+DEF -VAA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 20 H I C CNN
-F1 "juno-chorus-clone-rescue_-VAA" 0 100 30 H V C CNN
+F1 "-VAA" 0 100 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -15,11 +15,11 @@ X -VAA 1 0 0 0 U 20 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_2SA1016
+# 2SA1016
 #
-DEF juno-chorus-clone-rescue_2SA1016 Q 0 0 Y Y 1 F N
+DEF 2SA1016 Q 0 0 Y Y 1 F N
 F0 "Q" 0 -149 40 H V R CNN
-F1 "juno-chorus-clone-rescue_2SA1016" 0 150 40 H V R CNN
+F1 "2SA1016" 0 150 40 H V R CNN
 F2 "TO92" -100 102 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -37,11 +37,11 @@ X B 3 -200 0 225 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_2SC1815
+# 2SC1815
 #
-DEF juno-chorus-clone-rescue_2SC1815 Q 0 0 Y Y 1 F N
+DEF 2SC1815 Q 0 0 Y Y 1 F N
 F0 "Q" 0 -149 40 H V R CNN
-F1 "juno-chorus-clone-rescue_2SC1815" 0 150 40 H V R CNN
+F1 "2SC1815" 0 150 40 H V R CNN
 F2 "TO92" -100 102 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X B 3 -200 0 225 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_C
+# C
 #
-DEF juno-chorus-clone-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
-F1 "juno-chorus-clone-rescue_C" 6 -85 40 H V L CNN
+F1 "C" 6 -85 40 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_CONN_2
+# CONN_2
 #
-DEF juno-chorus-clone-rescue_CONN_2 P 0 40 Y N 1 F N
+DEF CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "juno-chorus-clone-rescue_CONN_2" 50 0 40 V V C CNN
+F1 "CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -93,11 +93,11 @@ X PM 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_CP1
+# CP1
 #
-DEF juno-chorus-clone-rescue_CP1 C 0 10 N N 1 F N
+DEF CP1 C 0 10 N N 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "juno-chorus-clone-rescue_CP1" 50 -100 50 H V L CNN
+F1 "CP1" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X ~ 2 0 -200 180 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_DIL8
+# DIL8
 #
-DEF juno-chorus-clone-rescue_DIL8 P 0 40 Y N 1 F N
+DEF DIL8 P 0 40 Y N 1 F N
 F0 "P" 0 250 60 H V C CNN
-F1 "juno-chorus-clone-rescue_DIL8" 0 0 50 V V C CNN
+F1 "DIL8" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -133,11 +133,11 @@ X P8 8 350 150 300 L 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_DIODE
+# DIODE
 #
-DEF juno-chorus-clone-rescue_DIODE D 0 40 N N 1 F N
+DEF DIODE D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "juno-chorus-clone-rescue_DIODE" 0 -100 40 H V C CNN
+F1 "DIODE" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -152,11 +152,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_DIODESCH
+# DIODESCH
 #
-DEF juno-chorus-clone-rescue_DIODESCH D 0 40 N N 1 F N
+DEF DIODESCH D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "juno-chorus-clone-rescue_DIODESCH" 0 -100 40 H V C CNN
+F1 "DIODESCH" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -171,11 +171,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_FET_N
+# FET_N
 #
-DEF juno-chorus-clone-rescue_FET_N Q 0 30 Y N 1 F N
+DEF FET_N Q 0 30 Y N 1 F N
 F0 "Q" -97 250 70 H V C CNN
-F1 "juno-chorus-clone-rescue_FET_N" -147 -247 60 H V C CNN
+F1 "FET_N" -147 -247 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -190,11 +190,11 @@ X S S 150 -350 250 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_GND
+# GND
 #
-DEF juno-chorus-clone-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "juno-chorus-clone-rescue_GND" 0 -70 30 H I C CNN
+F1 "GND" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -203,11 +203,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_LM7815CT
+# LM7815CT
 #
-DEF juno-chorus-clone-rescue_LM7815CT U 0 40 Y Y 1 F N
+DEF LM7815CT U 0 40 Y Y 1 F N
 F0 "U" -200 200 40 H V C CNN
-F1 "juno-chorus-clone-rescue_LM7815CT" 0 200 40 H V L CNN
+F1 "LM7815CT" 0 200 40 H V L CNN
 F2 "TO-220" 0 100 30 H V C CIN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -221,11 +221,11 @@ X OUT 3 400 50 150 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_LM7915CT
+# LM7915CT
 #
-DEF juno-chorus-clone-rescue_LM7915CT U 0 40 Y Y 1 F N
+DEF LM7915CT U 0 40 Y Y 1 F N
 F0 "U" -200 -200 40 H V C CNN
-F1 "juno-chorus-clone-rescue_LM7915CT" 0 -200 40 H V L CNN
+F1 "LM7915CT" 0 -200 40 H V L CNN
 F2 "TO-220" 0 -100 30 H V C CIN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -239,11 +239,11 @@ X OUT 3 400 -50 150 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_POT
+# POT
 #
-DEF juno-chorus-clone-rescue_POT RV 0 40 Y N 1 F N
+DEF POT RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "juno-chorus-clone-rescue_POT" 0 0 50 H V C CNN
+F1 "POT" 0 0 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -255,11 +255,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_R
+# R
 #
-DEF juno-chorus-clone-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "juno-chorus-clone-rescue_R" 7 1 40 V V C CNN
+F1 "R" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -276,11 +276,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_SW_PUSH
+# SW_PUSH
 #
-DEF juno-chorus-clone-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "juno-chorus-clone-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -291,11 +291,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_TL082
+# TL082
 #
-DEF juno-chorus-clone-rescue_TL082 U 0 20 Y Y 2 F N
+DEF TL082 U 0 20 Y Y 2 F N
 F0 "U" -50 200 60 H V L CNN
-F1 "juno-chorus-clone-rescue_TL082" -50 -250 60 H V L CNN
+F1 "TL082" -50 -250 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -311,11 +311,11 @@ X ~ 7 500 0 300 L 40 40 2 1 O
 ENDDRAW
 ENDDEF
 #
-# juno-chorus-clone-rescue_VAA
+# VAA
 #
-DEF juno-chorus-clone-rescue_VAA #PWR 0 0 Y Y 1 F P
+DEF VAA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 60 30 H I C CNN
-F1 "juno-chorus-clone-rescue_VAA" 0 110 30 H V C CNN
+F1 "VAA" 0 110 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

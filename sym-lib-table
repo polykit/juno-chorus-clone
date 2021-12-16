@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name juno-chorus-clone-rescue)(type Legacy)(uri ${KIPRJMOD}/juno-chorus-clone-rescue.lib)(options "")(descr ""))
+)
